@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig, loadEnv } from 'vite'
 import { resolve } from 'path'
 import { appendFileSync, cpSync, existsSync, mkdirSync } from 'fs'
 
@@ -135,7 +135,13 @@ function createBookingId() {
   return `CHEDI-${stamp}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`
 }
 
-export default defineConfig({
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), '')
+  if (env.CONTACT_API_URL) {
+    process.env.CONTACT_API_URL = env.CONTACT_API_URL
+  }
+
+  return {
   plugins: [{
     name: 'local-dev-api',
     configureServer(server) {
@@ -234,5 +240,6 @@ export default defineConfig({
         ref: resolve(__dirname, 'ref.html')
       }
     }
+  }
   }
 })
