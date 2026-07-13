@@ -1,6 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import { resolve } from 'path'
-import { appendFileSync, cpSync, existsSync, mkdirSync } from 'fs'
+import { appendFileSync, copyFileSync, cpSync, existsSync, mkdirSync } from 'fs'
 
 function copyDir(src, dest) {
   if (!existsSync(src)) return
@@ -135,6 +135,72 @@ function createBookingId() {
   return `CHEDI-${stamp}-${Math.random().toString(36).slice(2, 6).toUpperCase()}`
 }
 
+function registerApiMiddleware(app) {
+  app.use('/api/contact', async (req, res) => {
+    if (req.method !== 'POST') {
+      sendJson(res, 405, { success: false, message: 'Method not allowed.' })
+      return
+    }
+
+    try {
+      const payload = await readJsonBody(req)
+      const errors = validateContact(payload)
+      if (errors.length) {
+        sendJson(res, 400, { success: false, errors })
+        return
+      }
+
+      const result = await forwardContactToBackend(payload)
+      sendJson(res, result.status, result.data)
+    } catch (err) {
+      sendJson(res, 400, { success: false, message: 'Invalid request body.' })
+    }
+  })
+
+  app.use('/api/reservation', async (req, res) => {
+    if (req.method !== 'POST') {
+      sendJson(res, 405, { success: false, message: 'Method not allowed.' })
+      return
+    }
+
+    try {
+      const payload = await readJsonBody(req)
+      const errors = validateReservation(payload)
+      if (errors.length) {
+        sendJson(res, 400, { success: false, errors })
+        return
+      }
+
+      const bookingId = createBookingId()
+      const reservationDate = new Date().toLocaleDateString('en-IN', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric'
+      })
+
+      appendSubmission('reservation', { ...payload, bookingId, reservationDate })
+      sendJson(res, 200, {
+        success: true,
+        bookingId,
+        reservationDate,
+        message: 'Reservation received.'
+      })
+    } catch (err) {
+      sendJson(res, 400, { success: false, message: 'Invalid request body.' })
+    }
+  })
+}
+
+function registerHistoryFallback(app) {
+  app.use((req, _res, next) => {
+    const path = req.url.split('?')[0]
+    if (req.url && (/^\/project-details\//.test(path) || /^\/farm-listing\//.test(path) || path === '/terms-and-conditions' || path === '/privacy-policy')) {
+      req.url = '/main.html'
+    }
+    next()
+  })
+}
+
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   if (env.CONTACT_API_URL) {
@@ -145,70 +211,18 @@ export default defineConfig(({ mode }) => {
   plugins: [{
     name: 'local-dev-api',
     configureServer(server) {
-      server.middlewares.use('/api/contact', async (req, res) => {
-        if (req.method !== 'POST') {
-          sendJson(res, 405, { success: false, message: 'Method not allowed.' })
-          return
-        }
-
-        try {
-          const payload = await readJsonBody(req)
-          const errors = validateContact(payload)
-          if (errors.length) {
-            sendJson(res, 400, { success: false, errors })
-            return
-          }
-
-          const result = await forwardContactToBackend(payload)
-          sendJson(res, result.status, result.data)
-        } catch (err) {
-          sendJson(res, 400, { success: false, message: 'Invalid request body.' })
-        }
-      })
-
-      server.middlewares.use('/api/reservation', async (req, res) => {
-        if (req.method !== 'POST') {
-          sendJson(res, 405, { success: false, message: 'Method not allowed.' })
-          return
-        }
-
-        try {
-          const payload = await readJsonBody(req)
-          const errors = validateReservation(payload)
-          if (errors.length) {
-            sendJson(res, 400, { success: false, errors })
-            return
-          }
-
-          const bookingId = createBookingId()
-          const reservationDate = new Date().toLocaleDateString('en-IN', {
-            day: '2-digit',
-            month: 'short',
-            year: 'numeric'
-          })
-
-          appendSubmission('reservation', { ...payload, bookingId, reservationDate })
-          sendJson(res, 200, {
-            success: true,
-            bookingId,
-            reservationDate,
-            message: 'Reservation received.'
-          })
-        } catch (err) {
-          sendJson(res, 400, { success: false, message: 'Invalid request body.' })
-        }
-      })
+      registerApiMiddleware(server.middlewares)
+    },
+    configurePreviewServer(server) {
+      registerApiMiddleware(server.middlewares)
     }
   }, {
     name: 'project-details-history-fallback',
     configureServer(server) {
-      server.middlewares.use((req, _res, next) => {
-        const path = req.url.split('?')[0]
-        if (req.url && (/^\/project-details\//.test(path) || /^\/farm-listing\//.test(path) || path === '/terms-and-conditions' || path === '/privacy-policy')) {
-          req.url = '/main.html'
-        }
-        next()
-      })
+      registerHistoryFallback(server.middlewares)
+    },
+    configurePreviewServer(server) {
+      registerHistoryFallback(server.middlewares)
     }
   }, {
     name: 'copy-static-assets',
@@ -216,6 +230,11 @@ export default defineConfig(({ mode }) => {
       const dist = resolve(__dirname, 'dist')
       copyDir(resolve(__dirname, 'css'), resolve(dist, 'css'))
       copyDir(resolve(__dirname, 'js'), resolve(dist, 'js'))
+
+      const redirects = resolve(__dirname, '_redirects')
+      if (existsSync(redirects)) {
+        copyFileSync(redirects, resolve(dist, '_redirects'))
+      }
     }
   }, {
     name: 'preserve-responsive-css-link',
@@ -231,13 +250,19 @@ export default defineConfig(({ mode }) => {
     }
   }],
 
+  preview: {
+    port: 4173,
+    strictPort: false
+  },
+
   // Build: include all HTML entry points so Vite copies them to dist/
   build: {
     rollupOptions: {
       input: {
         index: resolve(__dirname, 'index.html'),
         main: resolve(__dirname, 'main.html'),
-        ref: resolve(__dirname, 'ref.html')
+        ref: resolve(__dirname, 'ref.html'),
+        agriland: resolve(__dirname, 'agriland.html')
       }
     }
   }
