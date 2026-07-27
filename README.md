@@ -15,5 +15,8 @@ Basic project setup for the CHEDI static website.
 
 ## Project structure
 
-- `index.html`: main website page
-- `source.html`: original imported source backup
+- `index.html`: entry redirect to `main.html`
+- `main.html`: main website page
+- `ref.html`: Projects page content (embedded in `main.html`)
+- `css/`, `js/`: styles and scripts for the static site
+- `react-app/`: React conversion of the site (see `react-app/README.md`)

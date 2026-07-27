@@ -242,6 +242,19 @@
       transform: translateY(-1px);
     }
 
+    .nav-cta-signin {
+      background: transparent;
+      color: var(--green-mid) !important;
+      border: 1.5px solid var(--green-mid);
+    }
+
+    .nav-cta-signin:hover {
+      background: var(--green-mid);
+      color: var(--white) !important;
+      box-shadow: 0 4px 16px rgba(26, 74, 46, .25);
+      transform: translateY(-1px);
+    }
+
     /* ── MOBILE HAMBURGER MENU ── */
     .nav-hamburger {
       display: none;
@@ -370,6 +383,20 @@
 
     .mobile-nav-link.nav-cta:hover {
       padding-left: 24px;
+    }
+
+    .mobile-nav-link.nav-cta-signin {
+      margin-top: 0;
+      background: transparent;
+      color: var(--gold-light) !important;
+      border: 1.5px solid rgba(201, 150, 62, .55);
+    }
+
+    .mobile-nav-link.nav-cta-signin:hover {
+      background: rgba(201, 150, 62, .18);
+      color: var(--gold-light) !important;
+      box-shadow: none;
+      transform: none;
     }
 
     .mobile-nav-submenu-toggle {
@@ -4869,6 +4896,7 @@
         <span class="nav-link" data-nav-page="projects" onclick="showPage(&#39;projects&#39;)">Projects</span>
         <span class="nav-link" data-nav-page="about" onclick="showPage(&#39;about&#39;)">About Us</span>
         <span class="nav-link nav-cta btn" data-nav-page="contact" onclick="showPage(&#39;contact&#39;)">Contact Us</span>
+        <span class="nav-link nav-cta nav-cta-signin btn" role="button" tabindex="0">Sign In</span>
       </nav>
       <button class="nav-hamburger" id="hamburgerBtn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNavDrawer">
         <span></span>
@@ -4898,6 +4926,9 @@
       </li>
       <li class="mobile-nav-item">
         <span class="mobile-nav-link nav-cta btn" data-nav-page="contact" onclick="showPage(&#39;contact&#39;);closeMobileNav()">Contact Us</span>
+      </li>
+      <li class="mobile-nav-item">
+        <span class="mobile-nav-link nav-cta nav-cta-signin btn" role="button" tabindex="0" onclick="closeMobileNav()">Sign In</span>
       </li>
     </ul>
   </nav>
@@ -4971,7 +5002,7 @@
         <div class="hp-what-grid">
           <div class="hp-collage hp-reveal">
             <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80" alt="Organic vegetables" loading="lazy">
-            <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/14786.jpg" alt="Farmer harvesting crops" loading="lazy">
+            <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151530025.jpg" alt="Farmer harvesting crops" loading="lazy">
             <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_2j19m82j19m82j19.png" alt="Drone monitoring farmland" loading="lazy">
             <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=400&q=80" alt="Healthy family eating organic food" loading="lazy">
             <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_f419tyf419tyf419.png" alt="Healthy family eating organic food" loading="lazy">
@@ -4981,18 +5012,11 @@
             <span class="hp-section-tag">About CHEDI</span>
             <h2 class="hp-heading">What is CHEDI?</h2>
             <p class="hp-sub">CHEDI is an integrated agricultural ecosystem that connects families, farmers, and farmland through sustainable organic farming.</p>
-            <p class="hp-sub" style="margin-top:16px;font-weight:600;color:var(--hp-forest)">Our mission:</p>
-            <ul class="hp-mission-list">
-              <li>Provide healthy food</li>
-              <li>Improve farmer income</li>
-              <li>Restore agricultural land</li>
-              <li>Build long-term wellness</li>
-            </ul>
             <div class="hp-features-grid">
-              <div class="hp-glass-card hp-feature-mini"><div class="icon">🌱</div><h4>Organic Cultivation</h4></div>
-              <div class="hp-glass-card hp-feature-mini"><div class="icon">🚜</div><h4>Smart Agriculture</h4></div>
-              <div class="hp-glass-card hp-feature-mini"><div class="icon">👨‍🌾</div><h4>Farmer Empowerment</h4></div>
-              <div class="hp-glass-card hp-feature-mini"><div class="icon">🌍</div><h4>Sustainable Ecosystem</h4></div>
+              <div class="hp-glass-card hp-feature-mini"> <h4>Organic Cultivation</h4></div>
+              <div class="hp-glass-card hp-feature-mini"> <h4>Smart Agriculture</h4></div>
+              <div class="hp-glass-card hp-feature-mini"> <h4>Farmer Empowerment</h4></div>
+              <div class="hp-glass-card hp-feature-mini"> <h4>Sustainable Ecosystem</h4></div>
             </div>
           </div>
         </div>
@@ -5006,11 +5030,11 @@
         <h2 class="hp-heading hp-reveal">One Ecosystem. Four Powerful Solutions.</h2>
         <div class="hp-eco-grid">
           <div class="hp-eco-card hp-reveal" onclick="showPage('csa')">
-            <div class="hp-eco-card-img"><img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80" alt="Fresh harvested vegetables" loading="lazy"></div>
+            <div class="hp-eco-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/1172.jpg" alt="Fresh harvested vegetables" loading="lazy"></div>
             <div class="hp-eco-card-body"><h3>CSA</h3><p>Community Supported Agriculture — fresh organic produce delivered weekly to your family.</p></div>
           </div>
           <div class="hp-eco-card hp-reveal hp-reveal-delay-1" onclick="showPage('land')">
-            <div class="hp-eco-card-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/9355.jpg" alt="Aerial farmland plots" loading="lazy"></div>
+            <div class="hp-eco-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2148579680.jpg" alt="Aerial farmland plots" loading="lazy"></div>
             <div class="hp-eco-card-body"><h3>Agri-Land</h3><p>Transform your agricultural land into productive, sustainable organic farmland.</p></div>
           </div>
           <div class="hp-eco-card hp-reveal hp-reveal-delay-2" onclick="showPage('farmer')">
@@ -5103,11 +5127,11 @@
         <p class="hp-sub center hp-reveal">Premium real-estate investment opportunities in sustainable organic agriculture.</p>
         <div class="hp-land-grid">
           <div class="hp-land-card hp-reveal" onclick="showPage('contact')">
-            <div class="hp-land-card-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/2148776818.jpg" alt="Land sale consultation" loading="lazy"></div>
+            <div class="hp-land-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151251995.jpg" alt="Land sale consultation" loading="lazy"></div>
             <div class="hp-land-card-body"><h3>Sell Land</h3></div>
           </div>
           <div class="hp-land-card hp-reveal hp-reveal-delay-1" onclick="showPage('land')">
-            <div class="hp-land-card-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/9355.jpg" alt="Cultivated farmland" loading="lazy"></div>
+            <div class="hp-land-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/7582.jpg" alt="Cultivated farmland" loading="lazy"></div>
             <div class="hp-land-card-body"><h3>Lease Land</h3></div>
           </div>
           <div class="hp-land-card hp-reveal hp-reveal-delay-2" onclick="showPage('contact')">
@@ -5197,7 +5221,7 @@
           </div>
           <div class="hp-project-card hp-reveal hp-reveal-delay-1" onclick="showPage('projects')">
             <div class="hp-project-img">
-              <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=80" alt="Sivaganga-2" loading="lazy">
+              <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151462975.jpg" alt="Sivaganga-2" loading="lazy">
               <div class="hp-project-overlay"><button class="hp-btn hp-btn-glass" onclick="event.stopPropagation();showPage('projects')">View Project</button></div>
             </div>
             <div class="hp-project-body">
@@ -5358,8 +5382,7 @@
       <div class="container">
         <div class="two-col">
           <div class="land-option-img">
-            <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/land-morning.jpg"
-              alt="Premium aerial view of fertile agricultural land with land ownership concept" loading="lazy">
+            <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2732.jpg" loading="lazy">
           </div>
           <div>
             <div class="section-tag">We Purchase Agricultural Land</div>
@@ -5997,7 +6020,7 @@
             </div>
           </article>
           <article class="fg-support-card fg-reveal">
-            <div class="fg-support-card-img"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop" alt="Better market access" loading="lazy"></div>
+            <div class="fg-support-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/3402.jpg" alt="Better market access" loading="lazy"></div>
             <div class="fg-support-card-body">
               <h3>Better Market Access</h3>
               <p>Direct access to profitable B2B and B2C markets.</p>
@@ -6080,7 +6103,7 @@
             <div class="fg-organic-card-body"><h3>Non-GMO Production</h3><p>Cultivate safe and healthy agricultural produce.</p></div>
           </article>
           <article class="fg-organic-card fg-reveal">
-            <div class="fg-organic-card-img"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&q=80&auto=format&fit=crop" alt="Higher market demand" loading="lazy"><div class="fg-organic-overlay"></div></div>
+            <div class="fg-organic-card-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/7582.jpg" alt="Higher market demand" loading="lazy"><div class="fg-organic-overlay"></div></div>
             <div class="fg-organic-card-body"><h3>Higher Market Demand</h3><p>Growing demand for organic products creates better opportunities.</p></div>
           </article>
           <article class="fg-organic-card fg-reveal">
@@ -6238,7 +6261,7 @@
         <div class="model-strip-img"><img
             src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1200&q=80&auto=format&fit=crop"
             alt="Farming" loading="lazy"></div>
-        <div class="model-strip-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/4648.jpg"
+        <div class="model-strip-img"><img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/3402.jpg"
             alt="Farmers" loading="lazy"></div>
         <div class="model-strip-img"><img
             src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/african-people-harvesting-vegetables.jpg"
@@ -9140,22 +9163,22 @@
       <div class="container">
         <div class="csa-stats-row">
           <div class="impact-card" style="background:#fff;border-color:rgba(0,0,0,.06);">
-            <div class="impact-icon">🌾</div>
+            <!-- <div class="impact-icon">🌾</div> -->
             <div class="impact-num" style="color:var(--green-dark);">600 sq ft</div>
             <div class="impact-label" style="color:var(--text-light);">Your Dedicated Plot</div>
           </div>
           <div class="impact-card" style="background:#fff;border-color:rgba(0,0,0,.06);">
-            <div class="impact-icon">🧪</div>
+            <!-- <div class="impact-icon">🧪</div> -->
             <div class="impact-num" style="color:var(--green-dark);font-size:28px;">Lab Tested</div>
             <div class="impact-label" style="color:var(--text-light);">Form Products</div>
           </div>
           <div class="impact-card" style="background:#fff;border-color:rgba(0,0,0,.06);">
-            <div class="impact-icon">🌱</div>
+            <!-- <div class="impact-icon">🌱</div> -->
             <div class="impact-num" style="color:var(--green-dark);">40+</div>
             <div class="impact-label" style="color:var(--text-light);">Seasonal Varieties</div>
           </div>
           <div class="impact-card" style="background:#fff;border-color:rgba(0,0,0,.06);">
-            <div class="impact-icon">🚚</div>
+            <!-- <div class="impact-icon">🚚</div> -->
             <div class="impact-num" style="color:var(--green-dark);">7 Days</div>
             <div class="impact-label" style="color:var(--green-dark);font-weight:600;font-size:13px;line-height:1.4;">Weekly Once – Soil to Doorstep</div>
           </div>
@@ -9345,7 +9368,7 @@
           </div>
           <div class="step-card">
             <div class="step-card-img">
-              <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&auto=format&fit=crop"
+              <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151462947.jpg"
                 alt="Continuous Subscription" loading="lazy">
               <div class="step-num-circle">4</div>
             </div>
@@ -9386,7 +9409,7 @@
           </div>
           <div class="step-card">
             <div class="step-card-img">
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80&auto=format&fit=crop"
+              <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151479053.jpg"
                 alt="Delivery" loading="lazy">
               <div class="step-num-circle">7</div>
             </div>
@@ -9618,7 +9641,7 @@
             <div class="seasonal-card-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/49496.jpg"
                 alt="Brinjal" loading="lazy"></div>
             <div class="seasonal-card-body">
-              <div class="seasonal-veg-name">🍆 Brinjal</div>
+              <div class="seasonal-veg-name">Brinjal</div>
               <!-- <div class="seasonal-veg-qty">500 g / week</div> -->
             </div>
           </div>
@@ -9626,7 +9649,7 @@
             <div class="seasonal-card-img"><img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_3xrjyb3xrjyb3xrj.png"
                 alt="Lady&#39;s Fingers" loading="lazy"></div>
             <div class="seasonal-card-body">
-              <div class="seasonal-veg-name">🌿 Lady's Fingers</div>
+              <div class="seasonal-veg-name"> Lady's Fingers</div>
               <!-- <div class="seasonal-veg-qty">500 g / week</div> -->
             </div>
           </div>
@@ -10524,7 +10547,7 @@
 
         <!-- Bottom Community Banner -->
         <div class="healthy-community-banner">
-          <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_jnmasajnmasajnma.png" alt="Healthy diverse families united in organic farming movement" class="community-banner-image" loading="lazy">
+          <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/52118.jpg" alt="Healthy diverse families united in organic farming movement" class="community-banner-image" loading="lazy">
           <div class="community-banner-overlay">
             <h3 class="community-banner-title">Join the Movement</h3>
             <p class="community-banner-text">Thousands of families are choosing organic, choosing health, choosing CHEDI.</p>
@@ -10728,7 +10751,7 @@
     <!-- ⑰ FINAL CTA -->
     <section class="cta-banner">
       <div class="cta-banner-bg"><img
-          src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=80&auto=format&fit=crop"
+          src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2777.jpg"
           alt="Fresh vegetables" loading="lazy"></div>
       <div class="cta-banner-content">
         <div class="section-tag">JOIN THE MOVEMENT</div>
@@ -10840,7 +10863,7 @@
                 src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/2148224020.jpg" alt="Soil health"
                 loading="lazy"></div>
             <div class="pillar-card-body">
-              <div class="pillar-icon">🌍</div>
+               
               <div class="pillar-title">Restore Soil Health</div>
               <div class="pillar-desc">Rebuild depleted land using natural, chemical-free restoration methods for
                 long-term fertility.</div>
@@ -10851,7 +10874,7 @@
                 src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=1200&q=80&auto=format&fit=crop"
                 alt="Farmer income" loading="lazy"></div>
             <div class="pillar-card-body">
-              <div class="pillar-icon">💰</div>
+              
               <div class="pillar-title">Increase Farmer Income</div>
               <div class="pillar-desc">Create structured pathways for farmers to earn more through fair partnerships and
                 market access.</div>
@@ -10859,10 +10882,10 @@
           </div>
           <div class="pillar-card">
             <div class="pillar-card-img"><img
-                src="https://images.unsplash.com/photo-1498579150354-977475b7ea0b?w=1200&q=80&auto=format&fit=crop"
+                src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151969792.jpg"
                 alt="Healthy food" loading="lazy"></div>
             <div class="pillar-card-body">
-              <div class="pillar-icon">🥗</div>
+             
               <div class="pillar-title">Produce Healthier Food</div>
               <div class="pillar-desc">Grow nutrient-rich, lab-tested, chemical-free produce for communities that care
                 about quality.</div>
@@ -10873,7 +10896,7 @@
                 src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80&auto=format&fit=crop"
                 alt="Scale" loading="lazy"></div>
             <div class="pillar-card-body">
-              <div class="pillar-icon">📈</div>
+ 
               <div class="pillar-title">Build Scalable Systems</div>
               <div class="pillar-desc">Develop farming models that can be replicated, scaled, and sustained across
                 multiple regions.</div>
@@ -11055,27 +11078,27 @@
         </div>
         <div class="impact-grid">
           <div class="impact-card">
-            <div class="impact-icon">🌍</div>
+            <!-- <div class="impact-icon">🌍</div> -->
             <div class="impact-num">500+</div>
             <div class="impact-label">Acres Restored</div>
           </div>
           <div class="impact-card">
-            <div class="impact-icon">👨‍🌾</div>
+            <!-- <div class="impact-icon">👨‍🌾</div> -->
             <div class="impact-num">2,000+</div>
             <div class="impact-label">Farmers Empowered</div>
           </div>
           <div class="impact-card">
-            <div class="impact-icon">🔬</div>
+            <!-- <div class="impact-icon">🔬</div> -->
             <div class="impact-num">↑ 40%</div>
             <div class="impact-label">Soil Health Improved</div>
           </div>
           <div class="impact-card">
-            <div class="impact-icon">🌿</div>
+            <!-- <div class="impact-icon">🌿</div> -->
             <div class="impact-num">Carbon+</div>
             <div class="impact-label">Impact Generated</div>
           </div>
           <div class="impact-card">
-            <div class="impact-icon">💰</div>
+            <!-- <div class="impact-icon">💰</div> -->
             <div class="impact-num">3×</div>
             <div class="impact-label">Income Growth</div>
           </div>
@@ -11085,7 +11108,7 @@
 
     <section class="cta-banner">
       <div class="cta-banner-bg"><img
-          src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1200&q=80&auto=format&fit=crop"
+          src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/3402.jpg"
           alt="Farmers" loading="lazy"></div>
       <div class="cta-banner-content">
         <h2 class="cta-banner-title">Partner in the Future<br>of Agriculture</h2>
@@ -11189,113 +11212,6 @@
               <div class="pd-stat-value" id="pd-stat-available">59</div>
               <div class="pd-stat-label">Available Plots</div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section 2 – Choose Your Plot -->
-      <section class="pd-section" id="pd-choose-plot-section">
-        <div class="pd-section-head">
-          <div class="pd-section-tag">Select Your Investment</div>
-          <h2 class="pd-section-title">Choose Your Plot</h2>
-          <p class="pd-section-sub">Select the number of farm plots that best fits your agricultural investment goals.</p>
-        </div>
-        <div class="pd-plans-grid" id="pd-plans-grid"></div>
-      </section>
-
-      <!-- Section 3 – Reservation Summary -->
-      <section class="pd-section" id="pd-summary-section" style="padding-top:0;">
-        <div class="pd-section-head">
-          <div class="pd-section-tag">Your Selection</div>
-          <h2 class="pd-section-title">Reservation Summary</h2>
-        </div>
-        <p id="pd-summary-empty" style="text-align:center;color:var(--text-light);font-size:15px;">Select a plan above to view your reservation summary.</p>
-        <div class="pd-summary-card" id="pd-summary-card" style="display:none;">
-          <div class="pd-summary-item">
-            <span class="pd-summary-label">Selected Plan</span>
-            <span class="pd-summary-value" id="pd-sum-plan">—</span>
-          </div>
-          <div class="pd-summary-item">
-            <span class="pd-summary-label">Number of Plots</span>
-            <span class="pd-summary-value" id="pd-sum-plots">—</span>
-          </div>
-          <div class="pd-summary-item">
-            <span class="pd-summary-label">Annual Return</span>
-            <span class="pd-summary-value highlight" id="pd-sum-return">—</span>
-          </div>
-          <div class="pd-summary-item">
-            <span class="pd-summary-label">Project Name</span>
-            <span class="pd-summary-value" id="pd-sum-project">—</span>
-          </div>
-          <div class="pd-summary-item" style="grid-column:1/-1;">
-            <span class="pd-summary-label">Location</span>
-            <span class="pd-summary-value" id="pd-sum-location">—</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Section 4 – Reserve Your Farm Plot -->
-      <section class="pd-section" id="pd-reserve-section" style="background:var(--beige);">
-        <div class="pd-reserve-grid">
-          <div>
-            <div class="pd-section-head" style="text-align:left;margin-bottom:28px;">
-              <div class="pd-section-tag">Secure Your Plot</div>
-              <h2 class="pd-section-title" style="text-align:left;">Reserve Your Farm Plot</h2>
-              <p class="pd-section-sub" style="margin:0;text-align:left;">Complete the form below to reserve your farm plot and start your sustainable farming journey.</p>
-            </div>
-            <div class="pd-plot-summary" id="pd-plot-summary">
-              <p style="color:var(--text-light);font-size:14px;">Select a plan above to see plot details.</p>
-            </div>
-          </div>
-          <div class="pd-form-card">
-            <form id="pd-reserve-form" novalidate>
-              <div class="pd-form-group">
-                <label for="pd-name">Full Name *</label>
-                <input type="text" id="pd-name" name="fullName" placeholder="Enter your full name" required>
-                <div class="pd-form-error" id="pd-err-name"></div>
-              </div>
-              <div class="pd-form-row">
-                <div class="pd-form-group">
-                  <label for="pd-mobile">Mobile Number *</label>
-                  <input type="tel" id="pd-mobile" name="mobile" placeholder="10-digit mobile number" required>
-                  <div class="pd-form-error" id="pd-err-mobile"></div>
-                </div>
-                <div class="pd-form-group">
-                  <label for="pd-email">Email Address *</label>
-                  <input type="email" id="pd-email" name="email" placeholder="your@email.com" required>
-                  <div class="pd-form-error" id="pd-err-email"></div>
-                </div>
-              </div>
-              <div class="pd-form-group">
-                <label for="pd-address">Street Name / Address *</label>
-                <input type="text" id="pd-address" name="address" placeholder="Street address" required>
-                <div class="pd-form-error" id="pd-err-address"></div>
-              </div>
-              <div class="pd-form-row">
-                <div class="pd-form-group">
-                  <label for="pd-city">City *</label>
-                  <input type="text" id="pd-city" name="city" placeholder="City" required>
-                  <div class="pd-form-error" id="pd-err-city"></div>
-                </div>
-                <div class="pd-form-group">
-                  <label for="pd-state">State</label>
-                  <select id="pd-state" name="state">
-                    <option value="Tamil Nadu" selected>Tamil Nadu</option>
-                  </select>
-                </div>
-              </div>
-              <div class="pd-form-group">
-                <label for="pd-pin">PIN Code *</label>
-                <input type="text" id="pd-pin" name="pin" placeholder="6-digit PIN code" maxlength="6" required>
-                <div class="pd-form-error" id="pd-err-pin"></div>
-              </div>
-              <label class="pd-agreement">
-                <input type="checkbox" id="pd-agree" name="agree">
-                <span>I agree to the Terms &amp; Conditions and Plot Reservation Policy.</span>
-              </label>
-              <button type="submit" class="pd-submit-btn" id="pd-submit-btn" disabled>Reserve My Farm Plot</button>
-              <div class="pd-form-feedback" id="pd-form-feedback"></div>
-            </form>
           </div>
         </div>
       </section>

@@ -206,12 +206,77 @@
       text-shadow: 0 1px 10px rgba(0, 0, 0, 0.45), 0 1px 3px rgba(0, 0, 0, 0.3);
     }
 
+    /* ── PROJECT TOGGLE BUTTONS ────────────────────────── */
+    .project-panels {
+      padding: 48px 48px 64px;
+      background: var(--beige);
+    }
+    .project-panel {
+      margin-bottom: 20px;
+    }
+    .project-panel:last-child {
+      margin-bottom: 0;
+    }
+    .project-tab {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding: 22px 32px;
+      border: 1.5px solid rgba(26, 58, 42, 0.18);
+      border-radius: 14px;
+      background: var(--white);
+      color: var(--green-dark);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(22px, 2.5vw, 30px);
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      cursor: pointer;
+      transition: background 0.25s, border-color 0.25s, color 0.25s, box-shadow 0.25s;
+      text-align: left;
+      box-shadow: var(--shadow-soft);
+    }
+    .project-tab::after {
+      content: '+';
+      font-family: 'Jost', sans-serif;
+      font-size: 28px;
+      font-weight: 300;
+      color: var(--gold);
+      line-height: 1;
+      transition: transform 0.25s;
+    }
+    .project-tab:hover {
+      border-color: var(--green-mid);
+      box-shadow: var(--shadow-hover);
+    }
+    .project-tab.active {
+      background: var(--green-dark);
+      border-color: var(--green-dark);
+      color: var(--white);
+      box-shadow: var(--shadow-hover);
+      border-radius: 14px 14px 0 0;
+    }
+    .project-tab.active::after {
+      content: '−';
+      color: var(--gold);
+    }
+    .project-tab:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+    }
+
     /* ── SECTION WRAPPER ───────────────────────────────── */
     .section {
       padding: 80px 48px;
+      background: var(--beige-dark);
+      display: none;
+      border-radius: 0 0 16px 16px;
+      margin-top: -6px;
     }
-    .section:nth-child(odd) { background: var(--beige); }
-    .section:nth-child(even) { background: var(--beige-dark); }
+    .section.is-open {
+      display: block;
+      animation: fadeUp 0.45s ease both;
+    }
 
     /* ── SECTION HEADER ────────────────────────────────── */
     .section-header {
@@ -628,6 +693,8 @@
       }
     }
     @media (max-width: 860px) {
+      .project-panels { padding: 32px 24px 48px; }
+      .project-tab { padding: 18px 22px; }
       .section { padding: 56px 24px; }
       .nav { padding: 0 24px; }
       .nav-links { display: none; }
@@ -795,9 +862,16 @@
 
 
 <!-- ═══════════════════════════════════════════════════════
-     SECTION 1 · CSA PROJECTS
+     PROJECT PANELS · click a button to reveal its section
 ═══════════════════════════════════════════════════════ -->
-<section class="section" id="csa">
+<div class="project-panels">
+
+<!-- CSA PROJECT -->
+<div class="project-panel">
+  <button type="button" class="project-tab" data-section="csa" aria-expanded="false" aria-controls="csa">
+    CSA Project
+  </button>
+<section class="section" id="csa" aria-hidden="true">
   <div class="section-header">
     <div class="section-header-text">
       <div class="section-tag">Section 01</div>
@@ -864,7 +938,7 @@
     <!-- Card 3 -->
     <div class="card csa-farm-card csa-farm-card--coming-soon" data-farm-id="farm-3" data-available="false" aria-disabled="true">
       <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80" alt="Neithal farm"/>
+        <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2148291042.jpg" alt="Neithal farm"/>
         <span class="card-img-badge">CSA</span>
       </div>
       <div class="card-body">
@@ -891,7 +965,7 @@
       <div class="card-body">
         <div class="card-name">Farm 4</div>
         <div class="card-divider"></div>
-        <div class="card-methttpsa">
+        <div class="card-meta">
           <div class="card-meta-row"><div class="card-meta-dot"></div><strong style="font-size: 25px;">Pudukkottai-2</strong> </div>
           <div class="card-meta-row"><div class="card-meta-dot"></div><strong style="color: rgb(50, 252, 50);font-size: 20px;">Comming Soon</strong></div>
           <!-- <div class="card-meta-row"><div class="card-meta-dot"></div><strong>District</strong> Dindigul</div> -->
@@ -904,13 +978,14 @@
 
   </div>
 </section>
+</div>
 
-<div class="section-divider"></div>
-
-<!-- ═══════════════════════════════════════════════════════
-     SECTION 2 · LAND PROJECTS
-═══════════════════════════════════════════════════════ -->
-<section class="section" id="land">
+<!-- LAND PROJECT -->
+<div class="project-panel">
+  <button type="button" class="project-tab" data-section="land" aria-expanded="false" aria-controls="land">
+    Land Project
+  </button>
+<section class="section" id="land" aria-hidden="true">
   <div class="section-header">
     <div class="section-header-text">
       <div class="section-tag">Section 02</div>
@@ -993,7 +1068,7 @@
     <!-- Card 4 -->
     <div class="card">
       <div class="card-img">
-        <img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?w=600&q=80" alt="Teak plantation"/>
+        <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151479082.jpg" alt="Teak plantation"/>
         <span class="card-img-badge">Land</span>
       </div>
       <div class="card-body">
@@ -1010,13 +1085,14 @@
 
   </div>
 </section>
+</div>
 
-<div class="section-divider"></div>
-
-<!-- ═══════════════════════════════════════════════════════
-     SECTION 3 · FARMER PROJECTS
-═══════════════════════════════════════════════════════ -->
-<section class="section" id="farmer">
+<!-- FARMER PROJECT -->
+<div class="project-panel">
+  <button type="button" class="project-tab" data-section="farmer" aria-expanded="false" aria-controls="farmer">
+    Farmer Project
+  </button>
+<section class="section" id="farmer" aria-hidden="true">
   <div class="section-header">
     <div class="section-header-text">
       <div class="section-tag">Section 03</div>
@@ -1115,6 +1191,9 @@
 
   </div>
 </section>
+</div>
+
+</div><!-- /.project-panels -->
 
 <!-- FOOTER -->
 <footer>
@@ -1166,6 +1245,31 @@
       window.parent.navigateLegal(e, pageId, path);
     }
   }
+
+  // Toggle project sections: show only the section under the clicked button
+  (function () {
+    var tabs = document.querySelectorAll('.project-tab');
+    var sections = document.querySelectorAll('.project-panels .section');
+
+    function openSection(sectionId) {
+      tabs.forEach(function (tab) {
+        var isActive = tab.getAttribute('data-section') === sectionId;
+        tab.classList.toggle('active', isActive);
+        tab.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+      });
+      sections.forEach(function (section) {
+        var isOpen = section.id === sectionId;
+        section.classList.toggle('is-open', isOpen);
+        section.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+      });
+    }
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener('click', function () {
+        openSection(tab.getAttribute('data-section'));
+      });
+    });
+  })();
 
   // Navigate to farm listing page for the selected CSA category
   function openFarmListing(categoryId) {

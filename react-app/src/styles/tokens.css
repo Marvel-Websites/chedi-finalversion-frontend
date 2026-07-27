@@ -1,0 +1,55 @@
+/* ══════════════════════════════════════════════════════════════
+   CHEDI DESIGN TOKENS
+   ═════════════════════════════════════════════════════════════ */
+:root {
+  --green-dark: #0d2818;
+  --green-mid: #1a4a2e;
+  --green-light: #2d6a4f;
+  --green-accent: #40916c;
+  --gold: #c9963e;
+  --gold-light: #e8b96a;
+  --beige: #f5f0e8;
+  --beige-dark: #ede5d4;
+  --cream: #faf8f3;
+  --fg-green: #1b5e20;
+  --fg-gold: #d4af37;
+  --white: #ffffff;
+  --text-dark: #1a1a1a;
+  --text-mid: #3d3d3d;
+  --text-light: #6b6b6b;
+
+  --hero-bg-filter: brightness(1.08) contrast(1.06) saturate(1.05);
+  --hero-overlay-dark: radial-gradient(
+      ellipse 85% 75% at 50% 42%,
+      rgba(4, 14, 8, 0.58) 0%,
+      rgba(13, 40, 24, 0.34) 55%,
+      transparent 100%
+    ),
+    linear-gradient(
+      160deg,
+      rgba(4, 14, 8, 0.3) 0%,
+      rgba(13, 40, 24, 0.22) 55%,
+      rgba(26, 74, 46, 0.12) 100%
+    );
+  --hero-overlay-dark-mobile: radial-gradient(
+      ellipse 90% 80% at 50% 40%,
+      rgba(4, 14, 8, 0.62) 0%,
+      rgba(13, 40, 24, 0.38) 55%,
+      transparent 100%
+    ),
+    linear-gradient(
+      160deg,
+      rgba(4, 14, 8, 0.34) 0%,
+      rgba(13, 40, 24, 0.26) 55%,
+      rgba(26, 74, 46, 0.16) 100%
+    );
+  --section-bg-filter: brightness(1.06) contrast(1.05) saturate(1.03);
+  --section-overlay-light: linear-gradient(
+    100deg,
+    rgba(250, 248, 243, 0.72) 0%,
+    rgba(250, 248, 243, 0.55) 48%,
+    rgba(250, 248, 243, 0.48) 100%
+  );
+  --hero-text-shadow-title: 0 2px 16px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.35);
+  --hero-text-shadow-body: 0 1px 10px rgba(0, 0, 0, 0.45), 0 1px 3px rgba(0, 0, 0, 0.3);
+}

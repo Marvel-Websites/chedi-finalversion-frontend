@@ -12,6 +12,13 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8080"],
       "port": 8080
+    },
+    {
+      "name": "react-app",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "react-app"],
+      "port": 5180,
+      "autoPort": false
     }
   ]
 }

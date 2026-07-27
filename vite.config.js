@@ -261,8 +261,7 @@ export default defineConfig(({ mode }) => {
       input: {
         index: resolve(__dirname, 'index.html'),
         main: resolve(__dirname, 'main.html'),
-        ref: resolve(__dirname, 'ref.html'),
-        agriland: resolve(__dirname, 'agriland.html')
+        ref: resolve(__dirname, 'ref.html')
       }
     }
   }

@@ -1,0 +1,18 @@
+/* ══════════════════════════════════════════════════════════════
+   LEGACY CHEDI STYLES — ported verbatim from the original static
+   site (css/*.css + the two inline <style> blocks in main.html),
+   loaded in the exact original cascade order so visual output is
+   pixel-identical. See README for the rationale on keeping these
+   global rather than remapping ~1500 pre-existing classes into
+   CSS Modules.
+   ═════════════════════════════════════════════════════════════ */
+@import './01-global.css';
+@import './02-csa-extended.css';
+@import './03-modals.css';
+@import './04-project-details.css';
+@import './05-farm-listing.css';
+@import './06-home-premium.css';
+@import './07-legal-pages.css';
+@import './08-inline-main.css';
+@import './09-inline-csa.css';
+@import './10-responsive.css';

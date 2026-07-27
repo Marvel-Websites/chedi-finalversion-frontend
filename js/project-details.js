@@ -517,8 +517,7 @@
   }
 
   function scrollToReserve() {
-    var el = $('pd-reserve-section');
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    navigateToPage('contact');
   }
 
   function getHeaderScrollOffset() {
