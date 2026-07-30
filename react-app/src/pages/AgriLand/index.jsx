@@ -126,7 +126,7 @@ export default function AgriLand() {
       {/* LAND PARTNERSHIP PROGRAM */}
       <section className="land-partner-premium" id="partnership">
         <div className="land-partner-premium-bg">
-          <img src={`${IMG}/2148776818.jpg`} alt="Landowners and farmers collaborating in agricultural fields" loading="lazy" />
+          <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_424mde424mde424m+-+Copy.png" alt="Landowners and farmers collaborating in agricultural fields" loading="lazy" />
         </div>
         <div className="container land-partner-premium-content">
           <div className="section-tag">FARMER&apos;S PARTNERSHIP</div>

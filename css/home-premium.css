@@ -1004,7 +1004,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://chediwebsite.s3.us-east-1.amazonaws.com/images/14786.jpg') center/cover;
+  background: url('https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_g9druwg9druwg9dr.png') center/cover;
   opacity: 0.15;
 }
 #page-home .hp-farmer .hp-container { position: relative; z-index: 1; }
@@ -1292,7 +1292,7 @@
 #page-home .hp-final-bg {
   position: absolute;
   inset: 0;
-  background: url('https://chediwebsite.s3.us-east-1.amazonaws.com/images/9355.jpg') center/cover;
+  background: url('https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_bnfunybnfunybnfu.png') center/cover;
 }
 #page-home .hp-final-overlay {
   position: absolute;
