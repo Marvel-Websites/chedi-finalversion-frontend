@@ -1251,14 +1251,14 @@
     var tabs = document.querySelectorAll('.project-tab');
     var sections = document.querySelectorAll('.project-panels .section');
 
-    function openSection(sectionId) {
+    function setSection(sectionId) {
       tabs.forEach(function (tab) {
-        var isActive = tab.getAttribute('data-section') === sectionId;
+        var isActive = !!sectionId && tab.getAttribute('data-section') === sectionId;
         tab.classList.toggle('active', isActive);
         tab.setAttribute('aria-expanded', isActive ? 'true' : 'false');
       });
       sections.forEach(function (section) {
-        var isOpen = section.id === sectionId;
+        var isOpen = !!sectionId && section.id === sectionId;
         section.classList.toggle('is-open', isOpen);
         section.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
       });
@@ -1266,7 +1266,9 @@
 
     tabs.forEach(function (tab) {
       tab.addEventListener('click', function () {
-        openSection(tab.getAttribute('data-section'));
+        var sectionId = tab.getAttribute('data-section');
+        var isAlreadyOpen = tab.classList.contains('active');
+        setSection(isAlreadyOpen ? null : sectionId);
       });
     });
   })();
