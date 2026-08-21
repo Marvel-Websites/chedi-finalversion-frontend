@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { PAGE_TO_ROUTE } from '@/constants/routes';
+import { PAGE_TO_ROUTE, ROUTES } from '@/constants/routes';
 import { S3_BASE } from '@/constants/media';
 import {
   CSA_FEATURES,
@@ -64,7 +64,7 @@ export default function CSA() {
           </div>
           <div className="cta-btns center" style={{ marginBottom: 44 }}>
             <button className="btn btn-gold" onClick={() => go('contact')}>Start Membership</button>
-            <button className="btn btn-outline">Download App</button>
+            <a className="btn btn-outline" href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
             <button className="btn btn-longevity" onClick={scrollToLongevity}>
               <span className="longevity-btn-icon">✦</span> For Longevity Life
             </button>
@@ -119,7 +119,7 @@ export default function CSA() {
               ))}
             </div>
             <div style={{ marginTop: 28 }}>
-              <button className="btn btn-gold">Download App &amp; Join</button>
+              <a className="btn btn-gold" href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
             </div>
           </div>
           <div className="csa-member-card">
@@ -426,7 +426,7 @@ export default function CSA() {
               </div>
               <div className="delivery-cta-btns">
                 <button className="btn btn-gold">Start CSA Membership</button>
-                <button className="btn btn-green">Download App</button>
+                <a className="btn btn-green" href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
               </div>
             </div>
           </div>
@@ -449,9 +449,9 @@ export default function CSA() {
                   <div className="fee-include" key={item}>{item}</div>
                 ))}
               </div>
-              <button className="btn btn-gold" style={{ fontSize: 15, padding: '16px 32px' }}>
-                Download the App &amp; Join
-              </button>
+              <a className="btn btn-gold" style={{ fontSize: 15, padding: '16px 32px' }} href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">
+                Sign Up Web App
+              </a>
             </div>
             <div className="fee-right">
               <img src={`${IMG}/40137.jpg`} alt="Fresh farm produce" loading="lazy" />
@@ -743,7 +743,7 @@ export default function CSA() {
             <button className="btn btn-gold" style={{ fontSize: 15, padding: '16px 32px' }} onClick={() => go('contact')}>
               Become a Member
             </button>
-            <button className="btn btn-outline">Download the App</button>
+            <a className="btn btn-outline" href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
           </div>
         </div>
       </section>

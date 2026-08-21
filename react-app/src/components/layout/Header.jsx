@@ -68,9 +68,14 @@ export default function Header() {
             >
               Contact Us
             </span>
-            <span className="nav-link nav-cta nav-cta-signin btn" role="button" tabIndex={0}>
-              Sign In
-            </span>
+            <a
+              className="nav-link nav-cta nav-cta-signin btn"
+              href={ROUTES.SIGN_IN}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Sign Up Web App
+            </a>
           </nav>
           <button
             className={`nav-hamburger${mobileOpen ? ' active' : ''}`}
@@ -120,14 +125,15 @@ export default function Header() {
             </span>
           </li>
           <li className="mobile-nav-item">
-            <span
+            <a
               className="mobile-nav-link nav-cta nav-cta-signin btn"
-              role="button"
-              tabIndex={0}
+              href={ROUTES.SIGN_IN}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={closeMobileNav}
             >
-              Sign In
-            </span>
+              Sign Up Web App
+            </a>
           </li>
         </ul>
       </nav>

@@ -221,6 +221,7 @@
       background: transparent;
       color: var(--green-mid) !important;
       border: 1.5px solid var(--green-mid);
+      text-decoration: none;
     }
 
     .nav-cta-signin:hover {
@@ -365,6 +366,7 @@
       background: transparent;
       color: var(--gold-light) !important;
       border: 1.5px solid rgba(201, 150, 62, .55);
+      text-decoration: none;
     }
 
     .mobile-nav-link.nav-cta-signin:hover {

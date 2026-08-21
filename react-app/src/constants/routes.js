@@ -13,6 +13,7 @@ export const ROUTES = {
   TERMS: '/terms-and-conditions',
   PRIVACY: '/privacy-policy',
   AGRILAND_CLASSIC: '/agriland-classic',
+  SIGN_IN: 'https://webapp.chedi.in/',
 };
 
 export const farmListingPath = (categoryId = 'farm-1') => `/farm-listing/${categoryId}`;

@@ -246,6 +246,7 @@
       background: transparent;
       color: var(--green-mid) !important;
       border: 1.5px solid var(--green-mid);
+      text-decoration: none;
     }
 
     .nav-cta-signin:hover {
@@ -390,6 +391,7 @@
       background: transparent;
       color: var(--gold-light) !important;
       border: 1.5px solid rgba(201, 150, 62, .55);
+      text-decoration: none;
     }
 
     .mobile-nav-link.nav-cta-signin:hover {
@@ -4896,7 +4898,7 @@
         <span class="nav-link" data-nav-page="projects" onclick="showPage(&#39;projects&#39;)">Projects</span>
         <span class="nav-link" data-nav-page="about" onclick="showPage(&#39;about&#39;)">About Us</span>
         <span class="nav-link nav-cta btn" data-nav-page="contact" onclick="showPage(&#39;contact&#39;)">Contact Us</span>
-        <span class="nav-link nav-cta nav-cta-signin btn" role="button" tabindex="0">Sign In</span>
+        <a class="nav-link nav-cta nav-cta-signin btn" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up</a>
       </nav>
       <button class="nav-hamburger" id="hamburgerBtn" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNavDrawer">
         <span></span>
@@ -4928,7 +4930,7 @@
         <span class="mobile-nav-link nav-cta btn" data-nav-page="contact" onclick="showPage(&#39;contact&#39;);closeMobileNav()">Contact Us</span>
       </li>
       <li class="mobile-nav-item">
-        <span class="mobile-nav-link nav-cta nav-cta-signin btn" role="button" tabindex="0" onclick="closeMobileNav()">Sign In</span>
+        <a class="mobile-nav-link nav-cta nav-cta-signin btn" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer" onclick="closeMobileNav()">Sign Up</a>
       </li>
     </ul>
   </nav>
@@ -5111,7 +5113,7 @@
             </div>
             <div class="hp-btns">
               <button class="hp-btn hp-btn-primary" onclick="showPage('csa')">Become a Member</button>
-              <button class="hp-btn hp-btn-outline" onclick="showPage('contact')">Login App</button>
+              <a class="hp-btn hp-btn-outline" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
             </div>
           </div>
         </div>
@@ -5215,17 +5217,17 @@
               <div class="hp-project-overlay"><button class="hp-btn hp-btn-glass" onclick="event.stopPropagation();showPage('projects')">View Project</button></div>
             </div>
             <div class="hp-project-body">
-              <h3>📍 Sivaganga-1</h3>
+              <h3>📍 Sivaganga</h3>
               <div class="hp-project-meta"><span class="hp-badge hp-badge-available">Available</span><span>600 Sq Ft</span></div>
             </div>
           </div>
           <div class="hp-project-card hp-reveal hp-reveal-delay-1" onclick="showPage('projects')">
             <div class="hp-project-img">
-              <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151462975.jpg" alt="Sivaganga-2" loading="lazy">
+              <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/2151462975.jpg" alt="Theni" loading="lazy">
               <div class="hp-project-overlay"><button class="hp-btn hp-btn-glass" onclick="event.stopPropagation();showPage('projects')">View Project</button></div>
             </div>
             <div class="hp-project-body">
-              <h3>📍 Sivaganga-2</h3>
+              <h3>📍 Theni</h3>
               <div class="hp-project-meta"><span class="hp-badge hp-badge-soon">Coming Soon</span><span>600 Sq Ft</span></div>
             </div>
           </div>
@@ -5235,17 +5237,17 @@
               <div class="hp-project-overlay"><button class="hp-btn hp-btn-glass" onclick="event.stopPropagation();showPage('projects')">View Project</button></div>
             </div>
             <div class="hp-project-body">
-              <h3>📍 Pudukkottai-1</h3>
+              <h3>📍 Pudukkottai</h3>
               <div class="hp-project-meta"><span class="hp-badge hp-badge-soon">Coming Soon</span><span>600 Sq Ft</span></div>
             </div>
           </div>
           <div class="hp-project-card hp-reveal hp-reveal-delay-3" onclick="showPage('projects')">
             <div class="hp-project-img">
-              <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_18grtb18grtb18gr.png" alt="Pudukkottai-2" loading="lazy">
+              <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_18grtb18grtb18gr.png" alt="Thanjavur" loading="lazy">
               <div class="hp-project-overlay"><button class="hp-btn hp-btn-glass" onclick="event.stopPropagation();showPage('projects')">View Project</button></div>
             </div>
             <div class="hp-project-body">
-              <h3>📍 Pudukkottai-2</h3>
+              <h3>📍 Thanjavur</h3>
               <div class="hp-project-meta"><span class="hp-badge hp-badge-soon">Coming Soon</span><span>600 Sq Ft</span></div>
             </div>
           </div>
@@ -9124,7 +9126,7 @@
         </div>
         <div class="cta-btns center" style="margin-bottom:44px;">
           <button class="btn btn-gold" onclick="showPage('contact')">Start Membership</button>
-          <button class="btn btn-outline">Login App</button>
+          <a class="btn btn-outline" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
           <button class="btn btn-longevity" onclick="scrollToLongevity()">
             <span class="longevity-btn-icon">✦</span> For Longevity Life
           </button>
@@ -9205,7 +9207,7 @@
             <div class="csa-token-check">Farm-to-home goodness, every week</div>
           </div>
           <div style="margin-top:28px;">
-            <button class="btn btn-gold">Login App &amp; Join</button>
+            <a class="btn btn-gold" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
           </div>
         </div>
         <div class="csa-member-card">
@@ -9773,7 +9775,7 @@
             <!-- CTA Buttons -->
             <div class="delivery-cta-btns">
               <button class="btn btn-gold">Start CSA Membership</button>
-              <button class="btn btn-green">Login App</button>
+              <a class="btn btn-green" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
             </div>
           </div>
         </div>
@@ -9796,7 +9798,7 @@
               <div class="fee-include">Plot leasing access and payment management</div>
               <div class="fee-include">Farm Club membership card</div>
             </div>
-            <button class="btn btn-gold" style="font-size:15px;padding:16px 32px;">Login the App &amp; Join</button>
+            <a class="btn btn-gold" style="font-size:15px;padding:16px 32px;" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
           </div>
           <div class="fee-right">
             <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/images/40137.jpg" alt="Fresh farm produce"
@@ -10759,7 +10761,7 @@
           delivered straight from your dedicated leased farm.</p>
         <div class="cta-btns center">
           <button class="btn btn-gold" style="font-size:15px;padding:16px 32px;" onclick="showPage('contact')">Become a Member </button>
-          <button class="btn btn-outline">Login the App</button>
+          <a class="btn btn-outline" href="https://webapp.chedi.in/" target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
         </div>
       </div>
     </section>

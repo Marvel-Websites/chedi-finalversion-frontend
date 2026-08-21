@@ -274,7 +274,7 @@ export default function Home() {
               </div>
               <div className="hp-btns">
                 <button className="hp-btn hp-btn-primary" onClick={() => go('csa')}>Become a Member</button>
-                <button className="hp-btn hp-btn-outline" onClick={() => go('contact')}>Download App</button>
+                <a className="hp-btn hp-btn-outline" href={ROUTES.SIGN_IN} target="_blank" rel="noopener noreferrer">Sign Up Web App</a>
               </div>
             </div>
           </div>

@@ -77,9 +77,9 @@ export const HOW_IT_WORKS_STEPS = [
 
 export const FEATURED_PROJECTS = [
   { img: `${S3_BASE.replace('/extraimages', '/images')}/72991.jpg`, alt: 'Sivaganga-1', name: 'Sivaganga-1', status: 'available' },
-  { img: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=80', alt: 'Sivaganga-2', name: 'Sivaganga-2', status: 'soon' },
+  { img: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=80', alt: 'Theni', name: 'Theni', status: 'soon' },
   { img: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80', alt: 'Pudukkottai-1', name: 'Pudukkottai-1', status: 'soon' },
-  { img: `${S3_BASE}/Gemini_Generated_Image_18grtb18grtb18gr.png`, alt: 'Pudukkottai-2', name: 'Pudukkottai-2', status: 'soon' },
+  { img: `${S3_BASE}/Gemini_Generated_Image_18grtb18grtb18gr.png`, alt: 'Thanjavur', name: 'Thanjavur', status: 'soon' },
 ];
 
 export const WELLNESS_CARDS = [
