@@ -106,7 +106,7 @@ export default function LongevitySection() {
               <p className="lng-emphasis">What you feed today defines how long you live tomorrow.</p>
             </div>
             <div className="lng-nutrition-img">
-              <img src="https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/2151244686.jpg" alt="Nutrition and wellness" />
+              <img src="https://d3epw9xjpezjqk.cloudfront.net/2151244686.jpg" alt="Nutrition and wellness" />
             </div>
           </div>
 

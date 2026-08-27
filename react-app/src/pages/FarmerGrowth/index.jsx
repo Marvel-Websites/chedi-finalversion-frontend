@@ -30,7 +30,7 @@ export default function FarmerGrowth() {
       {/* FARMER GROWTH HERO */}
       <section className="fg-hero" aria-label="Farmer Growth Hero">
         <div className="fg-hero-bg fg-hero-parallax" ref={parallaxRef}>
-          <img src="https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_bbg2wgbbg2wgbbg2.png" alt="Happy farmers working in lush green organic fields" loading="eager" />
+          <img src="https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bbg2wgbbg2wgbbg2.png" alt="Happy farmers working in lush green organic fields" loading="eager" />
         </div>
         <div className="fg-hero-overlay" />
         <div className="fg-hero-content fg-reveal">

@@ -223,7 +223,7 @@
 #page-home .hp-hero-bg {
   position: absolute;
   inset: 0;
-  background: url('https://chediwebsite.s3.us-east-1.amazonaws.com/images/7581.jpg') center center / cover no-repeat;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/7581.jpg') center center / cover no-repeat;
   will-change: transform;
 }
 #page-home .hp-hero-overlay {
@@ -949,7 +949,7 @@
 #page-home .hp-agriland {
   padding: 100px 0;
   position: relative;
-  background: url('https://chediwebsite.s3.us-east-1.amazonaws.com/extraimages/Gemini_Generated_Image_2j19m82j19m82j19.png') center/cover fixed;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.png') center/cover fixed;
 }
 #page-home .hp-agriland-overlay {
   position: absolute;
@@ -1004,7 +1004,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_g9druwg9druwg9dr.png') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_g9druwg9druwg9dr.png') center/cover;
   opacity: 0.15;
 }
 #page-home .hp-farmer .hp-container { position: relative; z-index: 1; }
@@ -1292,7 +1292,7 @@
 #page-home .hp-final-bg {
   position: absolute;
   inset: 0;
-  background: url('https://chedi.s3.us-east-1.amazonaws.com/Chedi/Gemini_Generated_Image_bnfunybnfunybnfu.png') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bnfunybnfunybnfu.png') center/cover;
 }
 #page-home .hp-final-overlay {
   position: absolute;
