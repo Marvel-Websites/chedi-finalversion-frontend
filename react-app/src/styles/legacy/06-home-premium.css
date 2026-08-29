@@ -223,7 +223,7 @@
 #page-home .hp-hero-bg {
   position: absolute;
   inset: 0;
-  background: url('https://d3epw9xjpezjqk.cloudfront.net/7581.jpg') center center / cover no-repeat;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/7581.webp') center center / cover no-repeat;
   will-change: transform;
 }
 #page-home .hp-hero-overlay {
@@ -949,7 +949,7 @@
 #page-home .hp-agriland {
   padding: 100px 0;
   position: relative;
-  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.png') center/cover fixed;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.webp') center/cover fixed;
 }
 #page-home .hp-agriland-overlay {
   position: absolute;
@@ -1004,7 +1004,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_g9druwg9druwg9dr.png') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_g9druwg9druwg9dr.webp') center/cover;
   opacity: 0.15;
 }
 #page-home .hp-farmer .hp-container { position: relative; z-index: 1; }
@@ -1190,7 +1190,7 @@
 #page-home .hp-reserve-bg {
   position: absolute;
   inset: 0;
-  background: url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1920&q=85') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp') center/cover;
 }
 #page-home .hp-reserve-overlay {
   position: absolute;
@@ -1215,7 +1215,7 @@
 /* ══ SECTION 10 — WELLNESS ═════════════════════════════════════ */
 #page-home .hp-wellness {
   padding: 100px 0;
-  background: url('https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1920&q=80') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp') center/cover;
   position: relative;
 }
 #page-home .hp-wellness-overlay {
@@ -1292,7 +1292,7 @@
 #page-home .hp-final-bg {
   position: absolute;
   inset: 0;
-  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bnfunybnfunybnfu.png') center/cover;
+  background: url('https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bnfunybnfunybnfu.webp') center/cover;
 }
 #page-home .hp-final-overlay {
   position: absolute;

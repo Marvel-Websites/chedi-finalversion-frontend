@@ -144,7 +144,7 @@
       z-index: 0;
       background:
         linear-gradient(135deg, rgba(27, 94, 32, 0.88) 0%, rgba(27, 94, 32, 0.60) 50%, rgba(212, 175, 55, 0.30) 100%),
-        url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1800&q=90') center/cover no-repeat;
+        url('https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp') center/cover no-repeat;
     }
 
     .agriland-classic-page .hero-bg::after {

@@ -5,4 +5,4 @@
  */
 export const S3_BASE = 'https://d3epw9xjpezjqk.cloudfront.net';
 
-export const CHEDI_LOGO = `${S3_BASE}/chedilogo.png`;
+export const CHEDI_LOGO = `${S3_BASE}/chedilogo.webp`;

@@ -2,28 +2,28 @@ import { S3_BASE } from './media';
 
 export const ECO_CARDS = [
   {
-    img: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80',
+    img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp',
     alt: 'Fresh harvested vegetables',
     title: 'CSA',
     desc: 'Community Supported Agriculture — fresh organic produce delivered weekly to your family.',
     navPage: 'csa',
   },
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/9355.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/9355.webp`,
     alt: 'Aerial farmland plots',
     title: 'Agri-Land',
     desc: 'Transform your agricultural land into productive, sustainable organic farmland.',
     navPage: 'land',
   },
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/14786.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/14786.webp`,
     alt: 'Farmer using technology',
     title: 'Farmer-Growth',
     desc: 'Empowering farmers with technology, training, and market access for sustainable growth.',
     navPage: 'farmer',
   },
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/72991.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/72991.webp`,
     alt: 'Organized farm layout',
     title: 'Projects',
     desc: 'Explore premium organic farm plots across Tamil Nadu — reserve your dedicated plot today.',
@@ -33,19 +33,19 @@ export const ECO_CARDS = [
 
 export const LAND_CARDS = [
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/2148776818.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/2148776818.webp`,
     alt: 'Land sale consultation',
     title: 'Sell Land',
     navPage: 'contact',
   },
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/9355.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/9355.webp`,
     alt: 'Cultivated farmland',
     title: 'Lease Land',
     navPage: 'land',
   },
   {
-    img: `${S3_BASE.replace('/extraimages', '/images')}/7581.jpg`,
+    img: `${S3_BASE.replace('/extraimages', '/images')}/7581.webp`,
     alt: 'Business partnership on farmland',
     title: 'Partner With Us',
     navPage: 'contact',
@@ -53,12 +53,12 @@ export const LAND_CARDS = [
 ];
 
 export const FARMER_CARDS = [
-  { img: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=128&q=80', alt: 'Organic Seeds', title: 'Organic Seeds', desc: 'Certified non-GMO seed distribution' },
-  { img: `${S3_BASE.replace('/extraimages', '/images')}/7581.jpg`, alt: 'Organic Manure', title: 'Organic Manure', desc: 'Natural soil enrichment programs' },
-  { img: `${S3_BASE}/Gemini_Generated_Image_gcem5xgcem5xgcem.png`, alt: 'Farm Analytics', title: 'Farm Analytics', desc: 'Data-driven crop management' },
-  { img: `${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.png`, alt: 'Drone Agriculture', title: 'Drone Agriculture', desc: 'Aerial monitoring & precision farming' },
-  { img: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=128&q=80', alt: 'Smart Irrigation', title: 'Smart Irrigation', desc: 'Water-efficient automated systems' },
-  { img: `${S3_BASE.replace('/extraimages', '/images')}/14786.jpg`, alt: 'Market Access', title: 'Market Access', desc: 'Direct-to-consumer supply chains' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1416879595882-3373a0480b5b.webp', alt: 'Organic Seeds', title: 'Organic Seeds', desc: 'Certified non-GMO seed distribution' },
+  { img: `${S3_BASE.replace('/extraimages', '/images')}/7581.webp`, alt: 'Organic Manure', title: 'Organic Manure', desc: 'Natural soil enrichment programs' },
+  { img: `${S3_BASE}/Gemini_Generated_Image_gcem5xgcem5xgcem.webp`, alt: 'Farm Analytics', title: 'Farm Analytics', desc: 'Data-driven crop management' },
+  { img: `${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.webp`, alt: 'Drone Agriculture', title: 'Drone Agriculture', desc: 'Aerial monitoring & precision farming' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp', alt: 'Smart Irrigation', title: 'Smart Irrigation', desc: 'Water-efficient automated systems' },
+  { img: `${S3_BASE.replace('/extraimages', '/images')}/14786.webp`, alt: 'Market Access', title: 'Market Access', desc: 'Direct-to-consumer supply chains' },
 ];
 
 export const HOW_IT_WORKS_STEPS = [
@@ -76,10 +76,10 @@ export const HOW_IT_WORKS_STEPS = [
 ];
 
 export const FEATURED_PROJECTS = [
-  { img: `${S3_BASE.replace('/extraimages', '/images')}/72991.jpg`, alt: 'Sivaganga-1', name: 'Sivaganga-1', status: 'available' },
-  { img: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=80', alt: 'Theni', name: 'Theni', status: 'soon' },
-  { img: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80', alt: 'Pudukkottai-1', name: 'Pudukkottai-1', status: 'soon' },
-  { img: `${S3_BASE}/Gemini_Generated_Image_18grtb18grtb18gr.png`, alt: 'Thanjavur', name: 'Thanjavur', status: 'soon' },
+  { img: `${S3_BASE.replace('/extraimages', '/images')}/72991.webp`, alt: 'Sivaganga-1', name: 'Sivaganga-1', status: 'available' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1530836369250-ef72a3f5cda8.webp', alt: 'Theni', name: 'Theni', status: 'soon' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1464226184884-fa280b87c399.webp', alt: 'Pudukkottai-1', name: 'Pudukkottai-1', status: 'soon' },
+  { img: `${S3_BASE}/Gemini_Generated_Image_18grtb18grtb18gr.webp`, alt: 'Thanjavur', name: 'Thanjavur', status: 'soon' },
 ];
 
 export const WELLNESS_CARDS = [

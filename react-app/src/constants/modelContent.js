@@ -6,7 +6,7 @@ export const MODEL1 = {
   id: 'model1',
   badge: 'MODEL 1',
   bgClass: 'model-1-bg',
-  heroImg: `${IMG}/2151969837+(1).jpg`,
+  heroImg: `${IMG}/2151969837+(1).webp`,
   heroAlt: 'Shared farming',
   titleLine1: 'Supported Farming',
   titleLine2Prefix: 'with',
@@ -25,8 +25,8 @@ export const MODEL1 = {
   ],
   stripImages: [
     { src: 'https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=1200&q=80&auto=format&fit=crop', alt: 'Farming' },
-    { src: `${IMG}/4648.jpg`, alt: 'Farmers' },
-    { src: `${IMG}/african-people-harvesting-vegetables.jpg`, alt: 'Harvest' },
+    { src: `${IMG}/4648.webp`, alt: 'Farmers' },
+    { src: `${IMG}/african-people-harvesting-vegetables.webp`, alt: 'Harvest' },
   ],
   benefits: [
     { icon: '🛡️', title: 'Zero Investment Risk', desc: 'Get started with support systems designed to reduce early farming burden.' },
@@ -45,7 +45,7 @@ export const MODEL2 = {
   id: 'model2',
   badge: 'MODEL 2',
   bgClass: 'model-2-bg',
-  heroImg: `${S3_BASE}/7120.jpg`,
+  heroImg: `${S3_BASE}/7120.webp`,
   heroAlt: 'Independent farming',
   titleLine1: 'Independent Farming',
   titleLine2Prefix: 'with',
@@ -62,8 +62,8 @@ export const MODEL2 = {
     'Assured buyback ensures market access',
   ],
   stripImages: [
-    { src: `${IMG}/2151450427.jpg`, alt: 'Farmer' },
-    { src: `${IMG}/land-morning.jpg`, alt: 'Crops' },
+    { src: `${IMG}/2151450427.webp`, alt: 'Farmer' },
+    { src: `${IMG}/land-morning.webp`, alt: 'Crops' },
     { src: 'https://images.unsplash.com/photo-1499529112087-3cb3b73cec95?w=1200&q=80&auto=format&fit=crop', alt: 'Harvest' },
   ],
   benefits: [
@@ -73,7 +73,7 @@ export const MODEL2 = {
     { icon: '📈', title: 'Better Earnings', desc: 'Market-based earnings with assured buyback for security and confidence.' },
   ],
   bestFor: ['Experienced Farmers', 'Self-Funded Farmers', 'Farmers Wanting Independence'],
-  ctaImg: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&q=80&auto=format&fit=crop',
+  ctaImg: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp',
   ctaAlt: 'Independent farming',
   ctaTitle: 'Take Control of Your Farming Future',
   ctaSub: 'Farm independently with expert support by your side.',

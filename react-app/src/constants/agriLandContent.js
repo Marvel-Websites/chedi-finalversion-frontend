@@ -55,7 +55,7 @@ export const PARTNERSHIP_BENEFITS = [
 export const INCOME_STREAMS = [
   {
     modifier: 'primary',
-    img: 'https://images.unsplash.com/photo-1471193945509-9ad0617afabf?w=1200&q=80&auto=format&fit=crop',
+    img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1471193945509-9ad0617afabf.webp',
     title: 'Agri-Product Sales',
     lead: 'Cultivation and selling of agricultural products through specialized agri buy-and-sell platforms.',
     items: [
@@ -67,7 +67,7 @@ export const INCOME_STREAMS = [
   },
   {
     modifier: 'accent',
-    img: 'https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80&auto=format&fit=crop',
+    img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1448375240586-882707db888b.webp',
     title: 'Carbon Credits',
     lead: 'Implementation of sustainable farming practices generates verified carbon credits.',
     items: [
@@ -79,7 +79,7 @@ export const INCOME_STREAMS = [
   },
   {
     modifier: 'primary',
-    img: `${IMG}/4656.jpg`,
+    img: `${IMG}/4656.webp`,
     title: 'Agri-Tourism',
     lead: 'Farm-based experiential tourism activities that connect people with sustainable agriculture.',
     items: [
@@ -92,7 +92,7 @@ export const INCOME_STREAMS = [
   },
   {
     modifier: 'solar',
-    img: `${IMG}/26.jpg`,
+    img: `${IMG}/26.webp`,
     title: 'Solar Power Generation',
     subLead: 'Agrivoltaics Model',
     lead: 'Dual-use land combining agriculture and renewable energy for maximum efficiency.',

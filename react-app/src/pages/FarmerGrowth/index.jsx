@@ -30,7 +30,7 @@ export default function FarmerGrowth() {
       {/* FARMER GROWTH HERO */}
       <section className="fg-hero" aria-label="Farmer Growth Hero">
         <div className="fg-hero-bg fg-hero-parallax" ref={parallaxRef}>
-          <img src="https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bbg2wgbbg2wgbbg2.png" alt="Happy farmers working in lush green organic fields" loading="eager" />
+          <img src="https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_bbg2wgbbg2wgbbg2.webp" alt="Happy farmers working in lush green organic fields" loading="eager" />
         </div>
         <div className="fg-hero-overlay" />
         <div className="fg-hero-content fg-reveal">
@@ -58,7 +58,7 @@ export default function FarmerGrowth() {
         <div className="container">
           <div className="two-col fg-family-grid">
             <div className="fg-family-img fg-reveal">
-              <img src={`${IMG}/farmer-walking-through-field.jpg`} alt="Farmer community training in organic agriculture" loading="lazy" />
+              <img src={`${IMG}/farmer-walking-through-field.webp`} alt="Farmer community training in organic agriculture" loading="lazy" />
             </div>
             <div className="fg-reveal">
               <div className="section-tag">Our Network</div>
@@ -100,7 +100,7 @@ export default function FarmerGrowth() {
               </div>
             </div>
             <div className="app-img">
-              <img src={`${IMG}/8713.jpg`} alt="Farm training" loading="lazy" />
+              <img src={`${IMG}/8713.webp`} alt="Farm training" loading="lazy" />
             </div>
           </div>
         </div>
@@ -222,7 +222,7 @@ export default function FarmerGrowth() {
               </ul>
             </div>
             <div className="fg-contract-img fg-reveal">
-              <img src={`${S3_BASE}/2148346099.jpg`} alt="Contract farming partnership in organic agriculture" loading="lazy" />
+              <img src={`${S3_BASE}/2148346099.webp`} alt="Contract farming partnership in organic agriculture" loading="lazy" />
             </div>
           </div>
         </div>

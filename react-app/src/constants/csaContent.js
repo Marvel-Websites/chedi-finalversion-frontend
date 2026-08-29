@@ -45,15 +45,15 @@ export const MEMBERSHIP_PROMISE_POINTS = [
 ];
 
 export const MEMBERSHIP_STEPS_TOP = [
-  { img: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200&q=80&auto=format&fit=crop', alt: 'Download App', label: 'MEMBERSHIP', title: 'Be a Member', desc: 'Download the app and pay for membership to join our Farm Club community.' },
-  { img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80&auto=format&fit=crop', alt: 'Subscription', label: 'SUBSCRIPTION', title: 'Make Subscription', desc: 'Subscribe to receive a continuous organic vegetable supply from your dedicated plot.' },
-  { img: 'https://images.unsplash.com/photo-1560493676-04071c5f467b?w=1200&q=80&auto=format&fit=crop', alt: 'Choose Plot', label: 'FARM', title: 'Choose a Plot', desc: "Select your preferred 600 sq ft plot for your family's farming needs." },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1512941937669-90a1b58e7e9c.webp', alt: 'Download App', label: 'MEMBERSHIP', title: 'Be a Member', desc: 'Download the app and pay for membership to join our Farm Club community.' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1450101499163-c8848c66ca85.webp', alt: 'Subscription', label: 'SUBSCRIPTION', title: 'Make Subscription', desc: 'Subscribe to receive a continuous organic vegetable supply from your dedicated plot.' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1560493676-04071c5f467b.webp', alt: 'Choose Plot', label: 'FARM', title: 'Choose a Plot', desc: "Select your preferred 600 sq ft plot for your family's farming needs." },
   { img: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&q=80&auto=format&fit=crop', alt: 'Continuous Subscription', label: 'CONTINUOUS', title: 'Continuous Subscription', desc: 'Maintain continuous membership to keep your leased plot farm active year-round.' },
 ];
 
 export const MEMBERSHIP_STEPS_BOTTOM = [
-  { img: `${IMG}/2148579733.jpg`, alt: 'Expert Cultivation', label: 'CULTIVATE', title: 'We Cultivate for You', desc: 'Our expert farmers cultivate organic vegetables on your leased plot using natural farming methods.' },
-  { img: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=80&auto=format&fit=crop', alt: 'Fresh Vegetables', label: 'FRESH VEGETABLES', title: 'Fresh Harvest', desc: 'Enjoy fresh, chemical-free organic vegetables grown naturally on your dedicated leased plot.' },
+  { img: `${IMG}/2148579733.webp`, alt: 'Expert Cultivation', label: 'CULTIVATE', title: 'We Cultivate for You', desc: 'Our expert farmers cultivate organic vegetables on your leased plot using natural farming methods.' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp', alt: 'Fresh Vegetables', label: 'FRESH VEGETABLES', title: 'Fresh Harvest', desc: 'Enjoy fresh, chemical-free organic vegetables grown naturally on your dedicated leased plot.' },
   { img: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80&auto=format&fit=crop', alt: 'Delivery', label: 'DELIVERY', title: 'Farm-to-Doorstep Weekly', desc: 'Fresh vegetables delivered directly from your farm to your home every week — maximum freshness guaranteed.' },
 ];
 
@@ -71,31 +71,31 @@ export const BASKET_STATS = [
 ];
 
 export const WEEKLY_STAPLES = [
-  { img: `${IMG}/5453.jpg`, name: 'Onion' },
-  { img: `${IMG}/2148799550.jpg`, name: 'Ginger' },
-  { img: 'https://images.unsplash.com/photo-1607305387299-a3d9611cd469?w=1200&q=80&auto=format&fit=crop', name: 'Tomato' },
-  { img: `${IMG}/771.jpg`, name: 'Green Chilli' },
-  { img: `${IMG}/65072.jpg`, name: 'Coriander' },
-  { img: `${IMG}/1519.jpg`, name: 'Garlic' },
-  { img: `${IMG}/42386.jpg`, name: 'Mint' },
-  { img: `${IMG}/1869.jpg`, name: 'Curry Leaves' },
+  { img: `${IMG}/5453.webp`, name: 'Onion' },
+  { img: `${IMG}/2148799550.webp`, name: 'Ginger' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1607305387299-a3d9611cd469.webp', name: 'Tomato' },
+  { img: `${IMG}/771.webp`, name: 'Green Chilli' },
+  { img: `${IMG}/65072.webp`, name: 'Coriander' },
+  { img: `${IMG}/1519.webp`, name: 'Garlic' },
+  { img: `${IMG}/42386.webp`, name: 'Mint' },
+  { img: `${IMG}/1869.webp`, name: 'Curry Leaves' },
 ];
 
 export const SEASONAL_VEGETABLES = [
-  { img: `${IMG}/49496.jpg`, name: '🍆 Brinjal' },
-  { img: `${S3_BASE}/Gemini_Generated_Image_3xrjyb3xrjyb3xrj.png`, name: "🌿 Lady's Fingers" },
-  { img: 'https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?w=1200&q=80&auto=format&fit=crop', name: 'Carrot' },
-  { img: `${IMG}/72924.jpg`, name: 'Beetroot' },
-  { img: `${IMG}/2104.jpg`, name: 'Cabbage' },
-  { img: `${IMG}/66303.jpg`, name: 'Cauliflower' },
-  { img: 'https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?w=1200&q=80&auto=format&fit=crop', name: 'Capsicum' },
-  { img: `${IMG}/35354.jpg`, name: 'Bitter Gourd' },
+  { img: `${IMG}/49496.webp`, name: '🍆 Brinjal' },
+  { img: `${S3_BASE}/Gemini_Generated_Image_3xrjyb3xrjyb3xrj.webp`, name: "🌿 Lady's Fingers" },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1598170845058-32b9d6a5da37.webp', name: 'Carrot' },
+  { img: `${IMG}/72924.webp`, name: 'Beetroot' },
+  { img: `${IMG}/2104.webp`, name: 'Cabbage' },
+  { img: `${IMG}/66303.webp`, name: 'Cauliflower' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1563565375-f3fdfdbefa83.webp', name: 'Capsicum' },
+  { img: `${IMG}/35354.webp`, name: 'Bitter Gourd' },
 ];
 
 export const DELIVERY_FLOAT_IMAGES = [
-  { img: `${S3_BASE}/chediimages1.png`, alt: 'Fresh harvest basket' },
-  { img: `${S3_BASE}/chediimages3.png`, alt: 'Eco-friendly packaging' },
-  { img: `${S3_BASE}/delivery-man-wearing-face-mask-holding-box-with-vegetables.jpg`, alt: 'Delivery transportation' },
+  { img: `${S3_BASE}/chediimages1.webp`, alt: 'Fresh harvest basket' },
+  { img: `${S3_BASE}/chediimages3.webp`, alt: 'Eco-friendly packaging' },
+  { img: `${S3_BASE}/delivery-man-wearing-face-mask-holding-box-with-vegetables.webp`, alt: 'Delivery transportation' },
 ];
 
 export const DELIVERY_FEATURES = [
@@ -122,8 +122,8 @@ export const APP_STEPS = [
 ];
 
 export const COMING_SOON = [
-  { img: 'https://images.unsplash.com/photo-1619566636858-adf3ef46400b?w=1200&q=80&auto=format&fit=crop', title: '🍎 Fruits' },
-  { img: `${S3_BASE}/chediimages12.png`, title: '🛒 Groceries' },
+  { img: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1619566636858-adf3ef46400b.webp', title: '🍎 Fruits' },
+  { img: `${S3_BASE}/chediimages12.webp`, title: '🛒 Groceries' },
 ];
 
 export const OUR_STORY_FEATURES = [
@@ -146,10 +146,10 @@ export const SUSTAINABILITY_FEATURES = [
 ];
 
 export const HEALTH_BENEFITS = [
-  { img: `${S3_BASE}/chediimages7.png`, alt: 'Healthy organic soil with sprouting plants', title: 'Soil Health', desc: 'Living organic soil is rich with microorganisms and nutrients. We build soil fertility naturally, creating the perfect foundation for nutritious crops.', points: ['Increased organic matter', 'Rich microbial communities', 'Natural nutrient cycling'] },
-  { img: `${S3_BASE}/Gemini_Generated_Image_xbze7vxbze7vxbze.png`, alt: 'Clean pure water in organic farming', title: 'Water Quality', desc: 'Crystal-clear, chemical-free irrigation from tested groundwater springs. No pesticide or fertilizer runoff — just pure, clean water.', points: ['Zero chemical contamination', 'Tested groundwater sources', 'Protected water ecosystems'] },
-  { img: `${S3_BASE}/chediimages11.png`, alt: 'Natural organic seeds close-up', title: 'Seed Quality', desc: 'We use traditional, non-GMO organic seeds that have been grown for generations. These seeds carry the wisdom of nature.', points: ['Traditional heritage varieties', 'Non-GMO natural seeds', 'Genetic diversity preserved'] },
-  { img: `${S3_BASE}/Gemini_Generated_Image_kh3qsqkh3qsqkh3q.png`, alt: 'Organic compost and natural fertilizer', title: 'Natural Fertilizer', desc: 'Only organic compost and natural manure. No synthetic chemicals that leave harmful residues in the soil or food.', points: ['100% organic compost', 'Natural animal manure', 'No synthetic chemicals'] },
+  { img: `${S3_BASE}/chediimages7.webp`, alt: 'Healthy organic soil with sprouting plants', title: 'Soil Health', desc: 'Living organic soil is rich with microorganisms and nutrients. We build soil fertility naturally, creating the perfect foundation for nutritious crops.', points: ['Increased organic matter', 'Rich microbial communities', 'Natural nutrient cycling'] },
+  { img: `${S3_BASE}/Gemini_Generated_Image_xbze7vxbze7vxbze.webp`, alt: 'Clean pure water in organic farming', title: 'Water Quality', desc: 'Crystal-clear, chemical-free irrigation from tested groundwater springs. No pesticide or fertilizer runoff — just pure, clean water.', points: ['Zero chemical contamination', 'Tested groundwater sources', 'Protected water ecosystems'] },
+  { img: `${S3_BASE}/chediimages11.webp`, alt: 'Natural organic seeds close-up', title: 'Seed Quality', desc: 'We use traditional, non-GMO organic seeds that have been grown for generations. These seeds carry the wisdom of nature.', points: ['Traditional heritage varieties', 'Non-GMO natural seeds', 'Genetic diversity preserved'] },
+  { img: `${S3_BASE}/Gemini_Generated_Image_kh3qsqkh3qsqkh3q.webp`, alt: 'Organic compost and natural fertilizer', title: 'Natural Fertilizer', desc: 'Only organic compost and natural manure. No synthetic chemicals that leave harmful residues in the soil or food.', points: ['100% organic compost', 'Natural animal manure', 'No synthetic chemicals'] },
   { img: `${S3_BASE}/Screenshot+2026-06-06+6.52.27+PM.png`, alt: 'Healthy green leaves with natural pest control', title: 'Natural Pest Control', desc: 'Beneficial insects, companion planting, and natural herbal solutions keep pests away without harmful chemicals.', points: ['Beneficial insect ecosystems', 'Herbal pest solutions', 'Chemical-free crops'] },
-  { img: `${S3_BASE}/chediimages4.png`, alt: 'Healthy family with fresh organic vegetables', title: 'Maximum Nutrition', desc: 'Higher mineral content, stronger immune support, and authentic flavor. Organic produce is genuinely more nutritious.', points: ['Higher vitamin content', 'Rich mineral density', 'Superior taste & freshness'] },
+  { img: `${S3_BASE}/chediimages4.webp`, alt: 'Healthy family with fresh organic vegetables', title: 'Maximum Nutrition', desc: 'Higher mineral content, stronger immune support, and authentic flavor. Organic produce is genuinely more nutritious.', points: ['Higher vitamin content', 'Rich mineral density', 'Superior taste & freshness'] },
 ];

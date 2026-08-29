@@ -41,7 +41,7 @@ export default function CSA() {
       {/* HERO */}
       <section className="csa-hero">
         <div className="csa-hero-bg">
-          <img src={`${S3_BASE}/Gemini_Generated_Image_lyfkk9lyfkk9lyfk.png`} alt="Fresh organic farm produce" loading="lazy" />
+          <img src={`${S3_BASE}/Gemini_Generated_Image_lyfkk9lyfkk9lyfk.webp`} alt="Fresh organic farm produce" loading="lazy" />
         </div>
         <div className="csa-hero-content">
           <div className="csa-acronym-title">
@@ -98,7 +98,7 @@ export default function CSA() {
       {/* TOKEN OF LOVE / WELCOME BANNER */}
       <section className="csa-token-banner">
         <div className="csa-token-bg" aria-hidden="true">
-          <img src={`${S3_BASE}/316.jpg`} alt="" loading="lazy" />
+          <img src={`${S3_BASE}/316.webp`} alt="" loading="lazy" />
         </div>
         <div className="csa-token-inner">
           <div className="csa-token-left">
@@ -198,7 +198,7 @@ export default function CSA() {
 
           <div className="steps-intro">
             <div className="steps-intro-img">
-              <img src={`${IMG}/male-farmer-who-is-using-shovel-dig-soil-his-rice-fields.jpg`} alt="Farmers working the plot" loading="lazy" />
+              <img src={`${IMG}/male-farmer-who-is-using-shovel-dig-soil-his-rice-fields.webp`} alt="Farmers working the plot" loading="lazy" />
             </div>
             <div>
               <div className="section-tag">OUR PROMISE</div>
@@ -326,7 +326,7 @@ export default function CSA() {
               </div>
             </div>
             <div className="basket-intro-img">
-              <img src={`${IMG}/2148224020.jpg`} alt="Fresh vegetable basket" loading="lazy" />
+              <img src={`${IMG}/2148224020.webp`} alt="Fresh vegetable basket" loading="lazy" />
             </div>
           </div>
 
@@ -401,7 +401,7 @@ export default function CSA() {
           <div className="delivery-content">
             <div className="delivery-hero-side">
               <div className="delivery-hero-img">
-                <img src={`${S3_BASE}/Gemini_Generated_Image_tnywfktnywfktnyw.png`} alt="Fresh vegetable delivery" loading="lazy" />
+                <img src={`${S3_BASE}/Gemini_Generated_Image_tnywfktnywfktnyw.webp`} alt="Fresh vegetable delivery" loading="lazy" />
               </div>
               <div className="delivery-float-cards">
                 {DELIVERY_FLOAT_IMAGES.map((item) => (
@@ -454,7 +454,7 @@ export default function CSA() {
               </a>
             </div>
             <div className="fee-right">
-              <img src={`${IMG}/40137.jpg`} alt="Fresh farm produce" loading="lazy" />
+              <img src={`${IMG}/40137.webp`} alt="Fresh farm produce" loading="lazy" />
               <div className="fee-image-overlay">
                 <p className="fee-overlay-text">We send basket of vegetable as a token of love</p>
               </div>
@@ -468,7 +468,7 @@ export default function CSA() {
         <div className="container">
           <div className="app-inner">
             <div className="app-img-wrapper">
-              <img src={`${IMG}/farmer-with-basket-harvested-vegetables-sunset.jpg`} alt="Expert cultivation" loading="lazy" />
+              <img src={`${IMG}/farmer-with-basket-harvested-vegetables-sunset.webp`} alt="Expert cultivation" loading="lazy" />
               <div className="app-badge-strip">
                 <h4>Expert Cultivation · Fresh Harvest</h4>
                 <p>From soil to your doorstep, every step managed for you</p>
@@ -578,7 +578,7 @@ export default function CSA() {
               </div>
             </div>
             <div className="csa-story-img">
-              <img src={`${IMG}/land-morning.jpg`} alt="Organic farm" loading="lazy" />
+              <img src={`${IMG}/land-morning.webp`} alt="Organic farm" loading="lazy" />
             </div>
           </div>
         </div>
@@ -599,7 +599,7 @@ export default function CSA() {
           <div className="healthy-world-comparison">
             <div className="comparison-side comparison-left">
               <div className="comparison-image-wrapper">
-                <img src={`${S3_BASE}/chediimages8.png`} alt="Industrial pollution - unhealthy environment" className="comparison-image" loading="lazy" />
+                <img src={`${S3_BASE}/chediimages8.webp`} alt="Industrial pollution - unhealthy environment" className="comparison-image" loading="lazy" />
                 <div className="comparison-overlay comparison-overlay-left">
                   <h3 className="comparison-title">Without Organic Care</h3>
                   <ul className="comparison-list">
@@ -618,7 +618,7 @@ export default function CSA() {
 
             <div className="comparison-side comparison-right">
               <div className="comparison-image-wrapper">
-                <img src={`${S3_BASE}/chediimages10.png`} alt="Healthy organic farm with families" className="comparison-image" loading="lazy" />
+                <img src={`${S3_BASE}/chediimages10.webp`} alt="Healthy organic farm with families" className="comparison-image" loading="lazy" />
                 <div className="comparison-overlay comparison-overlay-right">
                   <h3 className="comparison-title">With Organic Farming</h3>
                   <ul className="comparison-list">
@@ -633,7 +633,7 @@ export default function CSA() {
           </div>
 
           <div className="healthy-community-banner">
-            <img src={`${S3_BASE}/Gemini_Generated_Image_jnmasajnmasajnma.png`} alt="Healthy diverse families united in organic farming movement" className="community-banner-image" loading="lazy" />
+            <img src={`${S3_BASE}/Gemini_Generated_Image_jnmasajnmasajnma.webp`} alt="Healthy diverse families united in organic farming movement" className="community-banner-image" loading="lazy" />
             <div className="community-banner-overlay">
               <h3 className="community-banner-title">Join the Movement</h3>
               <p className="community-banner-text">Thousands of families are choosing organic, choosing health, choosing CHEDI.</p>
@@ -656,7 +656,7 @@ export default function CSA() {
 
           <div className="sustainability-content">
             <div className="sustainability-left">
-              <img src={`${S3_BASE}/Gemini_Generated_Image_s691d0s691d0s691.png`} alt="Lush green organic farm landscape" className="sustainability-image" loading="lazy" />
+              <img src={`${S3_BASE}/Gemini_Generated_Image_s691d0s691d0s691.webp`} alt="Lush green organic farm landscape" className="sustainability-image" loading="lazy" />
               <div className="sustainability-stats">
                 {SUSTAINABILITY_STATS.map((stat) => (
                   <div className="stat-item" key={stat.label}>
@@ -726,7 +726,7 @@ export default function CSA() {
       {/* FINAL CTA */}
       <section className="cta-banner">
         <div className="cta-banner-bg">
-          <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=80&auto=format&fit=crop" alt="Fresh vegetables" loading="lazy" />
+          <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp" alt="Fresh vegetables" loading="lazy" />
         </div>
         <div className="cta-banner-content">
           <div className="section-tag">JOIN THE MOVEMENT</div>

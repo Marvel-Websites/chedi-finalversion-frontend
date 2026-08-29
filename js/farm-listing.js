@@ -12,7 +12,7 @@
       village: 'Periyakulam',
       district: 'Theni',
       tagline: 'Fresh crops. Direct from farm to your table.',
-      banner: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1400&q=85',
+      banner: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp',
       bannerLabel: 'Community Supported Agriculture'
     },
     'farm-2': {
@@ -22,7 +22,7 @@
       village: 'Kodaikanal',
       district: 'Dindigul',
       tagline: 'Hill-grown produce from the Western Ghats.',
-      banner: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1400&q=85',
+      banner: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1530836369250-ef72a3f5cda8.webp',
       bannerLabel: 'Kurinji Hill Farms'
     },
     'farm-3': {
@@ -32,7 +32,7 @@
       village: 'Mudukulathur',
       district: 'Ramanathapuram',
       tagline: 'Coastal farms rooted in Tamil tradition.',
-      banner: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1400&q=85',
+      banner: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1464226184884-fa280b87c399.webp',
       bannerLabel: 'Neithal Coastal Agriculture'
     },
     'farm-4': {
@@ -49,52 +49,52 @@
 
   var LISTING_TEMPLATES = {
     'farm-1': [
-      { name: 'Mullai Meadow Farm', village: 'Periyakulam', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/72991.jpg', available: true },
-      { name: 'Periyakulam Greens', village: 'Bodi', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_1kwlgf1kwlgf1kwl.png' },
-      { name: 'Theni Valley Harvest', village: 'Theni', district: 'Theni', image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80' },
-      { name: 'Marutha Nadu Farm', village: 'Uthamapalayam', district: 'Theni', image: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&q=80' },
-      { name: 'Vaigai River Fields', village: 'Cumbum', district: 'Theni', image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80' },
-      { name: 'Silver Hills Organic', village: 'Chinnamanur', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_gcem5xgcem5xgcem.png' },
-      { name: 'Chinnamanur Greens', village: 'Chinnamanur', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/1356.jpg' },
-      { name: 'Bodinayakanur Fields', village: 'Bodinayakanur', district: 'Theni', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=80' },
+      { name: 'Mullai Meadow Farm', village: 'Periyakulam', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/72991.webp', available: true },
+      { name: 'Periyakulam Greens', village: 'Bodi', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_1kwlgf1kwlgf1kwl.webp' },
+      { name: 'Theni Valley Harvest', village: 'Theni', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp' },
+      { name: 'Marutha Nadu Farm', village: 'Uthamapalayam', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1592982537447-7440770cbfc9.webp' },
+      { name: 'Vaigai River Fields', village: 'Cumbum', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp' },
+      { name: 'Silver Hills Organic', village: 'Chinnamanur', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_gcem5xgcem5xgcem.webp' },
+      { name: 'Chinnamanur Greens', village: 'Chinnamanur', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/1356.webp' },
+      { name: 'Bodinayakanur Fields', village: 'Bodinayakanur', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1585320806297-9794b3e4eeae.webp' },
       { name: 'Uthamapalayam Farm', village: 'Uthamapalayam', district: 'Theni', image: 'https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=600&q=80' },
-      { name: 'Cumbum Valley Plot', village: 'Cumbum', district: 'Theni', image: 'https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=600&q=80' }
+      { name: 'Cumbum Valley Plot', village: 'Cumbum', district: 'Theni', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1601493700631-2b16ec4b4716.webp' }
     ],
     'farm-2': [
-      { name: 'Kurinji Heights Farm', village: 'Kodaikanal', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=600&q=80' },
+      { name: 'Kurinji Heights Farm', village: 'Kodaikanal', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1530836369250-ef72a3f5cda8.webp' },
       { name: 'Kodaikanal Bloom Fields', village: 'Kodaikanal', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80' },
       { name: 'Palani Hills Greens', village: 'Palani', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80' },
       { name: 'Mannavanur Meadows', village: 'Mannavanur', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80' },
-      { name: 'Poombarai Valley Farm', village: 'Poombarai', district: 'Dindigul', image:'https://d3epw9xjpezjqk.cloudfront.net/2148248872.jpg' },
+      { name: 'Poombarai Valley Farm', village: 'Poombarai', district: 'Dindigul', image:'https://d3epw9xjpezjqk.cloudfront.net/2148248872.webp' },
       { name: 'Berijam Lake Fields', village: 'Berijam', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=600&q=80' },
-      { name: 'Vattakanal Organic', village: 'Vattakanal', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80' },
+      { name: 'Vattakanal Organic', village: 'Vattakanal', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp' },
       { name: 'Guna Caves Plot', village: 'Poombarai', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80' },
       { name: 'Shenbaganur Hills Farm', village: 'Shenbaganur', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&q=80' },
       { name: "Dolphin's Nose Fields", village: 'Kodaikanal', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80' }
     ],
     'farm-3': [
-      { name: 'Neithal Coastal Farm', village: 'Mudukulathur', district: 'Ramanathapuram', image: 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80' },
-      { name: 'Mandapam Shore Fields', village: 'Mandapam', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.png' },
-      { name: 'Rameswaram Greens', village: 'Rameswaram', district: 'Ramanathapuram', image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80' },
-      { name: 'Mudukulathur Organic', village: 'Mudukulathur', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_9337ai9337ai9337.png' },
-      { name: 'Devipattinam Farm', village: 'Devipattinam', district: 'Ramanathapuram', image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80' },
-      { name: 'Thondi Coastal Plot', village: 'Thondi', district: 'Ramanathapuram', image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80' },
-      { name: 'Kilakarai Fields', village: 'Kilakarai', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_dlpxzpdlpxzpdlpx.png' },
-      { name: 'Pamban Island Farm', village: 'Pamban', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_te2c66te2c66te2c.png' },
-      { name: 'Karaikudi Neithal', village: 'Karaikudi', district: 'Sivaganga', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=80' },
+      { name: 'Neithal Coastal Farm', village: 'Mudukulathur', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1464226184884-fa280b87c399.webp' },
+      { name: 'Mandapam Shore Fields', village: 'Mandapam', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.webp' },
+      { name: 'Rameswaram Greens', village: 'Rameswaram', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1416879595882-3373a0480b5b.webp' },
+      { name: 'Mudukulathur Organic', village: 'Mudukulathur', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_9337ai9337ai9337.webp' },
+      { name: 'Devipattinam Farm', village: 'Devipattinam', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp' },
+      { name: 'Thondi Coastal Plot', village: 'Thondi', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp' },
+      { name: 'Kilakarai Fields', village: 'Kilakarai', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_dlpxzpdlpxzpdlpx.webp' },
+      { name: 'Pamban Island Farm', village: 'Pamban', district: 'Ramanathapuram', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_te2c66te2c66te2c.webp' },
+      { name: 'Karaikudi Neithal', village: 'Karaikudi', district: 'Sivaganga', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1585320806297-9794b3e4eeae.webp' },
       { name: 'Chidambaram Coastal', village: 'Chidambaram', district: 'Cuddalore', image: 'https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=600&q=80' }
     ],
     'farm-4': [
       { name: 'Marudam Plains Farm', village: 'Natham', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&q=80' },
-      { name: 'Natham Valley Fields', village: 'Natham', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_s691d0s691d0s691.png' },
-      { name: 'Athoor Organic Plot', village: 'Athoor', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=600&q=80' },
-      { name: 'Oddanchatram Greens', village: 'Oddanchatram', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80' },
-      { name: 'Vedasandur Farm', village: 'Vedasandur', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&q=80' },
-      { name: 'Sirumalai Hills Fields', village: 'Sirumalai', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_lyfkk9lyfkk9lyfk.png' },
-      { name: 'Kodaikanal Road Farm', village: 'Batlagundu', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.png' },
-      { name: 'Reddiarchatram Plot', village: 'Reddiarchatram', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=600&q=80' },
+      { name: 'Natham Valley Fields', village: 'Natham', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_s691d0s691d0s691.webp' },
+      { name: 'Athoor Organic Plot', village: 'Athoor', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1592982537447-7440770cbfc9.webp' },
+      { name: 'Oddanchatram Greens', village: 'Oddanchatram', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp' },
+      { name: 'Vedasandur Farm', village: 'Vedasandur', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1625246333195-78d9c38ad449.webp' },
+      { name: 'Sirumalai Hills Fields', village: 'Sirumalai', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_lyfkk9lyfkk9lyfk.webp' },
+      { name: 'Kodaikanal Road Farm', village: 'Batlagundu', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_2j19m82j19m82j19.webp' },
+      { name: 'Reddiarchatram Plot', village: 'Reddiarchatram', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1585320806297-9794b3e4eeae.webp' },
       { name: 'Sembatti Meadows', village: 'Sembatti', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1620706857370-e1b9770e8bb1?w=600&q=80' },
-      { name: 'Thadikombu Valley Farm', village: 'Thadikombu', district: 'Dindigul', image: 'https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=600&q=80' }
+      { name: 'Thadikombu Valley Farm', village: 'Thadikombu', district: 'Dindigul', image: 'https://d3epw9xjpezjqk.cloudfront.net/photo-1601493700631-2b16ec4b4716.webp' }
     ]
   };
 

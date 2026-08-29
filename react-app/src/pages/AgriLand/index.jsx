@@ -24,7 +24,7 @@ export default function AgriLand() {
     <div className="page active" id="page-land">
       <section className="land-hero">
         <div className="land-hero-bg">
-          <img src={`${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.png`} alt="Farmland aerial" loading="lazy" />
+          <img src={`${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.webp`} alt="Farmland aerial" loading="lazy" />
         </div>
         <div className="land-hero-content">
           <div className="section-tag">AGRI-LAND</div>
@@ -52,7 +52,7 @@ export default function AgriLand() {
           <div className="two-col">
             <div className="land-option-img">
               <img
-                src={`${IMG}/land-morning.jpg`}
+                src={`${IMG}/land-morning.webp`}
                 alt="Premium aerial view of fertile agricultural land with land ownership concept"
                 loading="lazy"
               />
@@ -114,7 +114,7 @@ export default function AgriLand() {
             </div>
             <div className="land-option-img">
               <img
-                src={`${IMG}/countryside-cloud-agriculture-organic-concept.jpg`}
+                src={`${IMG}/countryside-cloud-agriculture-organic-concept.webp`}
                 alt="Agricultural land actively cultivated by farmers"
                 loading="lazy"
               />
@@ -126,7 +126,7 @@ export default function AgriLand() {
       {/* LAND PARTNERSHIP PROGRAM */}
       <section className="land-partner-premium" id="partnership">
         <div className="land-partner-premium-bg">
-          <img src="https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_424mde424mde424m+-+Copy.png" alt="Landowners and farmers collaborating in agricultural fields" loading="lazy" />
+          <img src="https://d3epw9xjpezjqk.cloudfront.net/Gemini_Generated_Image_424mde424mde424m+-+Copy.webp" alt="Landowners and farmers collaborating in agricultural fields" loading="lazy" />
         </div>
         <div className="container land-partner-premium-content">
           <div className="section-tag">FARMER&apos;S PARTNERSHIP</div>
@@ -200,7 +200,7 @@ export default function AgriLand() {
             <div className="income-card income-card--wide">
               <div className="income-card-img income-card-img--wide">
                 <img
-                  src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80&auto=format&fit=crop"
+                  src="https://d3epw9xjpezjqk.cloudfront.net/photo-1611974789855-9c2a0a7236a3.webp"
                   alt="Additional Income Streams"
                   loading="lazy"
                 />
@@ -238,7 +238,7 @@ export default function AgriLand() {
       <section className="sustain-section">
         <div className="sustain-bg">
           <img
-            src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80&auto=format&fit=crop"
+            src="https://d3epw9xjpezjqk.cloudfront.net/photo-1448375240586-882707db888b.webp"
             alt="Nature"
             loading="lazy"
           />
@@ -269,7 +269,7 @@ export default function AgriLand() {
       <section className="cta-banner">
         <div className="cta-banner-bg">
           <img
-            src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80&auto=format&fit=crop"
+            src="https://d3epw9xjpezjqk.cloudfront.net/photo-1464226184884-fa280b87c399.webp"
             alt="Farm"
             loading="lazy"
           />

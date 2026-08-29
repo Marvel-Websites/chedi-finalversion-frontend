@@ -814,7 +814,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1800&q=80');
+      background-image: url('https://d3epw9xjpezjqk.cloudfront.net/photo-1500382017468-9049fed747ef.webp');
       background-size: cover;
       background-position: center;
       filter: var(--hero-bg-filter);
@@ -1700,7 +1700,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background-image: url('https://d3epw9xjpezjqk.cloudfront.net/2148248872.jpg');
+      background-image: url('https://d3epw9xjpezjqk.cloudfront.net/2148248872.webp');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;

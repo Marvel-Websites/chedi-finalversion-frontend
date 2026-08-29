@@ -76,13 +76,13 @@ export default function Home() {
         </div>
         <div className="hp-hero-visuals" aria-hidden="true">
           <div className="hp-hero-visual">
-            <img src={`${S3_BASE.replace('/extraimages', '/images')}/14786.jpg`} alt="" loading="lazy" />
+            <img src={`${S3_BASE.replace('/extraimages', '/images')}/14786.webp`} alt="" loading="lazy" />
           </div>
           <div className="hp-hero-visual">
-            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=200&q=80" alt="" loading="lazy" />
+            <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp" alt="" loading="lazy" />
           </div>
           <div className="hp-hero-visual">
-            <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=200&q=80" alt="" loading="lazy" />
+            <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1601493700631-2b16ec4b4716.webp" alt="" loading="lazy" />
           </div>
         </div>
       </section>
@@ -135,11 +135,11 @@ export default function Home() {
         <div className="hp-container">
           <div className="hp-what-grid">
             <div className="hp-collage hp-reveal">
-              <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=800&q=80" alt="Organic vegetables" loading="lazy" />
-              <img src={`${S3_BASE.replace('/extraimages', '/images')}/14786.jpg`} alt="Farmer harvesting crops" loading="lazy" />
-              <img src={`${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.png`} alt="Drone monitoring farmland" loading="lazy" />
-              <img src="https://images.unsplash.com/photo-1601493700631-2b16ec4b4716?w=400&q=80" alt="Healthy family eating organic food" loading="lazy" />
-              <img src={`${S3_BASE}/Gemini_Generated_Image_f419tyf419tyf419.png`} alt="Healthy family eating organic food" loading="lazy" />
+              <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1540420773420-3366772f4999.webp" alt="Organic vegetables" loading="lazy" />
+              <img src={`${S3_BASE.replace('/extraimages', '/images')}/14786.webp`} alt="Farmer harvesting crops" loading="lazy" />
+              <img src={`${S3_BASE}/Gemini_Generated_Image_2j19m82j19m82j19.webp`} alt="Drone monitoring farmland" loading="lazy" />
+              <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1601493700631-2b16ec4b4716.webp" alt="Healthy family eating organic food" loading="lazy" />
+              <img src={`${S3_BASE}/Gemini_Generated_Image_f419tyf419tyf419.webp`} alt="Healthy family eating organic food" loading="lazy" />
             </div>
             <div className="hp-reveal hp-reveal-delay-2">
               <span className="hp-section-tag">About CHEDI</span>
@@ -206,7 +206,7 @@ export default function Home() {
             <div className="hp-csa-visual hp-reveal">
               <div className="hp-csa-img">
                 <img
-                  src={`${S3_BASE}/Gemini_Generated_Image_fpebb0fpebb0fpeb.png`}
+                  src={`${S3_BASE}/Gemini_Generated_Image_fpebb0fpebb0fpeb.webp`}
                   alt="Premium organic vegetable basket with farmer"
                   loading="lazy"
                 />

@@ -16,7 +16,7 @@ export const TERMS_CONTENT = {
   title: 'Terms & Conditions',
   subtitle: 'CHEDI – The Organic Farm',
   date: 'Last Updated: June 2026',
-  heroImg: `${IMG}/2151294244.jpg`,
+  heroImg: `${IMG}/2151294244.webp`,
   heroAlt: 'Organic farmland',
   intro:
     'Welcome to CHEDI – The Organic Farm ("CHEDI", "we", "our", or "us"). By accessing our website, mobile application, services, memberships, farm plot programs, agricultural land services, and farmer partnership programs, you agree to the following Terms & Conditions.',
@@ -160,7 +160,7 @@ export const PRIVACY_CONTENT = {
   title: 'Privacy Policy',
   subtitle: 'CHEDI – The Organic Farm',
   date: 'Last Updated: June 2026',
-  heroImg: `${S3_BASE}/316.jpg`,
+  heroImg: `${S3_BASE}/316.webp`,
   heroAlt: 'Organic farm landscape',
   intro:
     'At CHEDI, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect your data.',

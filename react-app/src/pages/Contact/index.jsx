@@ -65,7 +65,7 @@ export default function Contact() {
     <div className="page active" id="page-contact">
       <div className="contact-page">
         <div className="contact-hero">
-          <img src={`${S3_BASE}/chediimages2.png`} alt="Chedi organic farm landscape" loading="lazy" />
+          <img src={`${S3_BASE}/chediimages2.webp`} alt="Chedi organic farm landscape" loading="lazy" />
           <div className="contact-hero-text">
             <h1>
               Let&apos;s Grow
@@ -106,7 +106,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="contact-map-img">
-              <img src={`${S3_BASE.replace('/extraimages', '/images')}/african-people-harvesting-vegetables.jpg`} alt="Farm" loading="lazy" />
+              <img src={`${S3_BASE.replace('/extraimages', '/images')}/african-people-harvesting-vegetables.webp`} alt="Farm" loading="lazy" />
             </div>
             <div style={{ marginTop: 22 }}>
               <div style={{ fontSize: 11, letterSpacing: 2, textTransform: 'uppercase', color: 'var(--gold)', marginBottom: 13 }}>

@@ -20,7 +20,7 @@ export default function About() {
     <div className="page active" id="page-about">
       <section className="about-hero">
         <div className="about-hero-bg">
-          <img src={`${IMG}/2151294244.jpg`} alt="Farmland" loading="lazy" />
+          <img src={`${IMG}/2151294244.webp`} alt="Farmland" loading="lazy" />
         </div>
         <div className="about-hero-content">
           <div className="section-tag">ABOUT CHEDI</div>
@@ -66,7 +66,7 @@ export default function About() {
               </div>
             </div>
             <div className="responsive-img-card">
-              <img src={`${IMG}/2151969802.jpg`} alt="CHEDI farmers" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={`${IMG}/2151969802.webp`} alt="CHEDI farmers" loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
           </div>
         </div>
@@ -152,7 +152,7 @@ export default function About() {
               </p>
             </div>
             <div className="carbon-img">
-              <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=1200&q=80&auto=format&fit=crop" alt="Nature environment" loading="lazy" />
+              <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1448375240586-882707db888b.webp" alt="Nature environment" loading="lazy" />
               <div className="carbon-img-badge">
                 <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 22, color: 'var(--gold-light)' }}>Carbon Positive</div>
                 <div style={{ fontSize: 12, color: 'rgba(255,255,255,.6)', marginTop: 3 }}>Regenerative agriculture</div>
@@ -214,7 +214,7 @@ export default function About() {
 
       <section className="cta-banner">
         <div className="cta-banner-bg">
-          <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=1200&q=80&auto=format&fit=crop" alt="Farmers" loading="lazy" />
+          <img src="https://d3epw9xjpezjqk.cloudfront.net/photo-1530836369250-ef72a3f5cda8.webp" alt="Farmers" loading="lazy" />
         </div>
         <div className="cta-banner-content">
           <h2 className="cta-banner-title">
