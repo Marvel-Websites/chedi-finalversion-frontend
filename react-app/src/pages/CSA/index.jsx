@@ -441,7 +441,7 @@ export default function CSA() {
               <div className="fee-tag">GET STARTED WITH FARM CLUB</div>
               <div className="fee-title">One-Time Membership Fee to Begin Your CSA Journey</div>
               <div className="fee-amount">
-                ₹500 <span>one-time</span>
+                ₹1,000 <span>one-time</span>
               </div>
               <div className="fee-one-time">Includes a complimentary box of seasonal vegetable samples</div>
               <div className="fee-includes">

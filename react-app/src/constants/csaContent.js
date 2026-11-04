@@ -26,9 +26,9 @@ export const TOKEN_CHECKS = [
 ];
 
 export const CSA_PLANS = [
-  { name: '4 Members Family', price: '₹120000', per: '/ Year · Ideal for 4 people', plotLine: 'Choose 1 plot of 600 sqft', cta: 'Get Started', featured: false },
-  { name: '8 Members Family', price: '₹240000', per: '/ Year · Ideal for 8 people', plotLine: 'Choose 2 plots of 600 sqft', cta: 'Join Harvest Plan', featured: true, badge: 'Most Popular' },
-  { name: '12 Members Family', price: '₹380000', per: '/ Year · Ideal for 12 people', plotLine: 'Choose 3 plots of 600 sqft', cta: 'Join Community Plan', featured: false },
+  { name: '4 Members Family', price: '₹300000', per: '/ Year · Ideal for 4 people', plotLine: 'Choose 1 plot of 600 sqft for lease', cta: 'Get Started', featured: false },
+  { name: '8 Members Family', price: '₹600000', per: '/ Year · Ideal for 8 people', plotLine: 'Choose 2 plots of 600 sqft for lease', cta: 'Join Harvest Plan', featured: true, badge: 'Most Popular' },
+  { name: '12 Members Family', price: '₹900000', per: '/ Year · Ideal for 12 people', plotLine: 'Choose 3 plots of 600 sqft for lease', cta: 'Join Community Plan', featured: false },
 ];
 
 export const PLAN_INCLUDED = [
