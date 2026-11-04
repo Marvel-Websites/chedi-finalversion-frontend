@@ -157,7 +157,7 @@ export default function CSA() {
                   {plan.plotLine}
                 </div>
                 <div className="plan-feature" style={!plan.featured ? { color: 'rgba(255,255,255,.72)', fontSize: 20 } : { fontSize: 20 }}>
-                  An aditional Delivery charge of ₹10,000 across Tamilnadu
+                  An additional Delivery charge of ₹10,000 across Tamilnadu
                 </div>
                 <button
                   className={plan.featured ? 'btn btn-gold' : 'btn btn-outline'}
